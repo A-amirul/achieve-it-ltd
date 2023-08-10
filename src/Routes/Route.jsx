@@ -3,7 +3,8 @@ import { createBrowserRouter } from "react-router-dom";
 import Home from "../pages/Home/Home";
 import Main from "../Layouts/Main";
 import ErrorPage from "../pages/ErrorPage/ErrorPage";
-import ComingSoon from "../shared/ComingSoon/ComingSoon";
+import AboutSection from "../pages/AboutSection/AboutSection";
+import ContactUs from "../pages/ContactUs/ContactUs";
 
 export const router = createBrowserRouter([
   {
@@ -15,12 +16,16 @@ export const router = createBrowserRouter([
         path: "/",
         element: <Home></Home>,
       },
-      
-        
-        {
-          path: "ComingSoon",
-          element: <ComingSoon></ComingSoon>,
-        },
+
+      {
+        path: "about",
+        element: <AboutSection></AboutSection>,
+      },
+
+      {
+        path: "contact",
+        element: <ContactUs></ContactUs>,
+      },
     ],
   },
 ]);
