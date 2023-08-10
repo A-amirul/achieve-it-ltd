@@ -1,4 +1,5 @@
-import Footer from "../../shared/Footer/Footer";
+import OurStory from "../AboutSection/OurStory";
+import ContactUs from "../ContactUs/ContactUs";
 import Banner from "./Banner";
 import Services from "./Services";
 
@@ -8,10 +9,11 @@ const Home = () => {
     <>
       <Banner></Banner>
       <Services></Services>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est dolor mollitia maxime quod. Sed minus, tempora enim corporis aut reiciendis.</p>
-      <Footer></Footer>
-
-
+      <div className="max-w-screen-xl mx-auto">
+        <h1 className="font-bold text-center text-4xl mt-8">Our Story</h1>
+        <OurStory></OurStory>
+      </div>
+      <ContactUs></ContactUs>
     </>
   );
 };
