@@ -5,6 +5,7 @@ import Main from "../Layouts/Main";
 import ErrorPage from "../pages/ErrorPage/ErrorPage";
 import AboutSection from "../pages/AboutSection/AboutSection";
 import ContactUs from "../pages/ContactUs/ContactUs";
+import ComingSoon from "../shared/ComingSoon/ComingSoon";
 
 export const router = createBrowserRouter([
   {
@@ -20,6 +21,10 @@ export const router = createBrowserRouter([
       {
         path: "about",
         element: <AboutSection></AboutSection>,
+      },
+      {
+        path:'ComingSoon',
+        element:<ComingSoon></ComingSoon>
       },
 
       {
