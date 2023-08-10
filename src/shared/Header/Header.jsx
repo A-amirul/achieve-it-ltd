@@ -23,7 +23,7 @@ const Header = () => {
         <a>Blog Section</a>
       </li>
       <li>
-        <a>Contact US</a>
+        <Link to={`http://localhost:5173/contact`}>Contact US</Link>
       </li>
     </>
   );
