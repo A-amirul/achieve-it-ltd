@@ -1,4 +1,3 @@
-
 import image2 from "../../assets/AboutSection/images2.jpg";
 
 import image5 from "../../assets/AboutSection/image5.jpg";
@@ -7,6 +6,15 @@ import image9 from "../../assets/AboutSection/image9.jpg";
 
 const OurStory = () => {
   return (
+
+    <div className="bg-[#fafafa]">
+      <div className="mx-auto max-w-screen-xl pt-16">
+        <h1 className="text-5xl mt-16 mb-8 font-semibold text-center">
+          Our Story
+        </h1>
+        <p className="text-slate-500 text-center my-2 font-medium">
+          Know about Us
+
     <div className="flex-row md:flex gap-8 items-center justify-center">
       <div className="px-5 md:px-0 md:w-1/2">
         <p className="text-justify px-5 md:px-0">
@@ -44,36 +52,39 @@ const OurStory = () => {
           demonstrated success in this regard. As we look ahead, our commitment
           to excellence remains unwavering, driven by our passion for achieving
           the extraordinary.
+
         </p>
-      </div>
-      <div className="md:w-1/2 relative px-5">
-        <div className="h-40 md:h-60">
-          <img
-            className="absolute top-0 right-5 h-40 md:h-60 rounded-2xl"
-            src={image9}
-            alt=""
-          />
-        </div>
-        <div className="h-40 md:h-60">
-          <img
-            className="absolute top-28  h-40 md:h-60 rounded-2xl"
-            src={image2}
-            alt=""
-          />
-        </div>
-        <div className="h-40 md:h-60">
-          <img
-            className="absolute top-96 md:top-[350px]  md:right-0  h-40 md:h-60 rounded-2xl"
-            src={image8}
-            alt=""
-          />
-        </div>
-        <div className="h-40 md:h-60">
-          <img
-            className="absolute top-56 md:top-[550px] md:left-0 right-5  h-40 md:h-60 rounded-2xl"
-            src={image5}
-            alt=""
-          />
+ 
+          <div className="md:w-1/2 relative px-5">
+            <div className="h-40 md:h-60">
+              <img
+                className="absolute top-0 right-5 h-40 md:h-60 rounded-2xl hover:border-2 border-sky-500 hover:p-2"
+                src={image9}
+                alt=""
+              />
+            </div>
+            <div className="h-40 md:h-60">
+              <img
+                className="absolute top-28  h-40 md:h-60 rounded-2xl hover:border-2 border-sky-500 hover:p-2"
+                src={image2}
+                alt=""
+              />
+            </div>
+            <div className="h-40 md:h-60">
+              <img
+                className="absolute top-96 md:top-[350px]  md:right-0  h-40 md:h-60 rounded-2xl hover:border-2 border-sky-500 hover:p-2"
+                src={image8}
+                alt=""
+              />
+            </div>
+            <div className="h-40 md:h-60">
+              <img
+                className="absolute top-56 md:top-[550px] md:left-0 right-5  h-40 md:h-60 rounded-2xl hover:border-2 border-sky-500 hover:p-2"
+                src={image5}
+                alt=""
+              />
+            </div>
+          </div>
         </div>
       </div>
     </div>

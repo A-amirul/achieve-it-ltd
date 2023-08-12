@@ -4,6 +4,11 @@ const Footer = () => {
     <div className="bg-[#297583] text-base-100 ">
       <footer className="footer pt-8 max-w-screen-xl mx-auto">
         <div className="text-xl ">
+          <div>
+            <div className="items-center grid-flow-col bg-black">
+              <img className="w-36" src={logo} alt="" />
+            </div>
+          </div>
           <span className="footer-title">Services</span>
           <a className="link link-hover">Branding</a>
           <a className="link link-hover">Design</a>
@@ -25,9 +30,6 @@ const Footer = () => {
         </div>
       </footer>
       <footer className="footer  pt-4 max-w-screen-xl mx-auto border-base-300">
-        <div className="items-center grid-flow-col bg-black">
-          <img className="w-36" src={logo} alt="" />
-        </div>
         <div className="md:place-self-center md:justify-self-center">
           <div className="grid grid-flow-col gap-4">
             <a>

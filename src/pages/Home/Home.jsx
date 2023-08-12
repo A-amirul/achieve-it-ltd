@@ -9,7 +9,12 @@ const Home = () => {
   return (
     <>
       <Banner></Banner>
+      
       <Services></Services>
+
+      <OurStory></OurStory>
+      <UserInfo></UserInfo>
+
 
       <div className="max-w-screen-xl mx-auto">
         <Clients></Clients>
@@ -18,6 +23,7 @@ const Home = () => {
         <UserInfo></UserInfo>
       </div>
       <Footer></Footer>
+
     </>
   );
 };

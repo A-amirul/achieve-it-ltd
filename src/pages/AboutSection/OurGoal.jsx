@@ -4,8 +4,10 @@ import image8 from "../../assets/AboutSection/image8.png";
 
 const OurGoal = () => {
   return (
-    <div className="grid md:grid-cols-3 gap-8 my-16">
-      <div className="hover:bg-gray-400 hover:text-white rounded-2xl">
+    <div className="bg-[#ffffff] py-20">
+    
+    <div className="grid md:grid-cols-3 gap-8 my-16 mx-auto max-w-screen-xl">
+      <div className=" hover:text-white rounded-2xl border-2 shadow-2xl transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-10 hover:bg-sky-500 duration-500">
         <h1 className="text-center text-3xl font-bold py-3">OUR VISION</h1>
         <img className="px-5 h-80" src={image7} alt="" />
         <p className="text-justify px-5 mt-3 pb-5">
@@ -20,7 +22,7 @@ const OurGoal = () => {
           and the world at large.
         </p>
       </div>
-      <div className="hover:bg-gray-400 hover:text-white rounded-2xl">
+      <div className="hover:text-white rounded-2xl border-2 shadow-2xl transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-10 hover:bg-sky-500 duration-500">
         <h1 className="text-center text-3xl font-bold py-3">OUR MISSION</h1>
         <img className="px-5 h-80 mx-auto" src={image6} alt="" />
         <p className="text-justify px-5 mt-3 pb-5">
@@ -36,8 +38,10 @@ const OurGoal = () => {
           progress.
         </p>
       </div>
-      <div className="hover:bg-gray-400 hover:text-white rounded-2xl">
-        <h1 className="text-center text-4xl font-semibold py-3">OUR VALUES</h1>
+
+      <div className="hover:text-white rounded-2xl border-2 shadow-2xl transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-10 hover:bg-sky-500 duration-500">
+        <h1 className="text-center text-3xl font-bold py-3">OUR VALUES</h1>
+
         <img className="px-5 " src={image8} alt="" />
         <p className="text-justify px-5 mt-3 pb-5">
           Achieve IT Limited is a dynamic IT company fueled by a
@@ -53,6 +57,7 @@ const OurGoal = () => {
           whole.
         </p>
       </div>
+    </div>
     </div>
   );
 };

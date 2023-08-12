@@ -2,9 +2,16 @@ import Location from "./Location";
 
 const UserInfo = () => {
   return (
+
+      <div className="bg-[#f0f1f5]">
+    <div className="max-w-screen-xl mx-auto flex-row md:flex  items-center justify-center ">
+      
+ 
+
     <div className="flex-row md:flex mx-auto items-center justify-center">
       <div className="md:w-1/2 ps-6">
         <h1 className="text-4xl font-bold text-center">Contact Us</h1>
+
         <div className="mt-10">
           <div className="flex-row md:flex gap-6">
             <div className="form-control w-full max-w-xs">
@@ -80,6 +87,7 @@ const UserInfo = () => {
       </div>
       <div className="md:w-1/2 ">
         <Location></Location>
+      </div>
       </div>
     </div>
   );
