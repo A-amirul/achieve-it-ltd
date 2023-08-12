@@ -8,17 +8,38 @@ const OurGoal = () => {
       <div className="hover:bg-gray-400 hover:text-white rounded-2xl">
         <h1 className="text-center text-3xl font-bold py-3">OUR VISION</h1>
         <img className="px-5 h-80" src={image7} alt="" />
-        
+        <p className="text-justify px-5 mt-3 pb-5">
+          Where most of the digital marketing agencies are after profit, we are
+          after growing the industry itself. Our philosophy is simple- we grow
+          when the industry grows. Everyone at MonsterClaw is passionate about
+          digital marketing and is very deeply connected to this industry. Being
+          one of the pioneers in affiliate marketing, we want to become
+          trendsetters in other aspects of digital marketing as well.
+        </p>
       </div>
       <div className="hover:bg-gray-400 hover:text-white rounded-2xl">
         <h1 className="text-center text-3xl font-bold py-3">OUR MISSION</h1>
         <img className="px-5 h-80 mx-auto" src={image6} alt="" />
-        
+        <p className="text-justify px-5 mt-3 pb-5">
+          Our mission is to help make businesses receive the highest ROI. We
+          want to help companies market their products and services successfully
+          in highly competitive industries. We believe our growth depends on how
+          much our clients grow and we treat their businesses as our own to
+          ensure maximum growth.
+        </p>
       </div>
       <div className="hover:bg-gray-400 hover:text-white rounded-2xl">
         <h1 className="text-center text-3xl font-bold py-3">OUR VALUES</h1>
         <img className="px-5 " src={image8} alt="" />
-        
+        <p className="text-justify px-5 mt-3 pb-5">
+          At MonsterClaw what we do is as important as knowing why we do. We
+          believe Affiliate Marketing is the next big thing for online
+          marketing. We believe over time more and more companies will go
+          online, and the online space will be immensely big, and to do
+          something recognizable in this arena, companies need to push the
+          limit, they need to have the top marketers with them to succeed which
+          will require our expertise.
+        </p>
       </div>
     </div>
   );
