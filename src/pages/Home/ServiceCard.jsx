@@ -1,3 +1,4 @@
+
 /* eslint-disable react/prop-types */
 import { FaArrowAltCircleRight } from "react-icons/fa";
 
@@ -16,6 +17,7 @@ const ServiceCard = ({ service, setModalInfo }) => {
             {description?.slice(0, 80)}
           </p>
 
+
           <div>
           <button className="w-full mx-auto"
             onClick={() => {
@@ -29,10 +31,13 @@ const ServiceCard = ({ service, setModalInfo }) => {
               </p>
             </div>
           </button>
+
+
           </div>
         </div>
       </div>
     </>
+
   );
 };
 

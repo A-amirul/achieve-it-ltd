@@ -1,6 +1,6 @@
-
 /** @type {import('tailwindcss').Config} */
 export default {
+
  content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
@@ -28,9 +28,10 @@ export default {
           
  "error": "#f87272",
           },
-        },
-      ],
-    },
-  plugins: [require("daisyui")],
-}
 
+        },
+      },
+    ],
+  },
+  plugins: [require("daisyui")],
+};
