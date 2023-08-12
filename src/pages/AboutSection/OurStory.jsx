@@ -10,49 +10,40 @@ const OurStory = () => {
     <div className="flex-row md:flex gap-8 items-center justify-center">
       <div className="px-5 md:px-0 md:w-1/2">
         <p className="text-justify px-5 md:px-0">
-          Back in 2007, Rifat Ahmed, the founder of MonsterClaw, decided that
-          his years of experience in digital marketing should get a bigger
-          platform to help promising businesses all over the world. Hence,
-          MonsterClaw was born. <br />
-          Today MonsterClaw is a team of 50+ in-house digital marketing
-          professionals, along with a large remote team working from different
-          parts of the world.
-          <br />
-          MonsterClaw has received numerous awards and accolades for providing
-          its clients with world-class digital marketing services. We have been
-          recognized as one of the best B2B marketing and advertising agencies
-          in the world by multiple platforms. On top of that, MonsterClaw ranks
-          among the top 3 Affiliate Marketing Agencies worldwide.
-          <br />
-          We love helping authentic businesses to grow. We understand that an
-          experienced and reliable team is the heart of any company. We become a
-          part of the team to grow the business to its potential.
-          <br />
-          Even though our initial plans were to focus more on affiliate
-          marketing and management, we were kind of forced to become a
-          full-fledged digital marketing agency. Our clients love us and they
-          kept asking, “What else do you guys do?”
-          <br />
-          We wanted our clients and other promising businesses to find every
-          digital marketing service they need under one roof. Gradually we
-          introduced Search Engine Optimization, Content Marketing, IT
-          Solutions, and so on.
-          <br />
-          A very important thing about MonsterClaw is – we are not money-driven.
-          We are challenge-driven and we do marketing because we love it. Every
-          single person in the team is someone who loves and enjoys marketing,
-          and sees their career in it.
-          <br />
-          The dedicated team allowed us to grow over 300% in 2021, and we are
-          just getting warmed up to crush it in 2022.
-          <br />
-          We are committed to delivering quality marketing services on time that
-          add real value to grow beyond expectation. Our policy of work is “It
-          has to be the absolute best result”.
-          <br />
-          When it comes to serving our clients, we aim to deliver the absolute
-          best results. Clients may have high expectations, but we want to go
-          even beyond. So far, we have been highly successful in achieving that.
+          In 2023, Md Fazlay Rabbi, the visionary founder of Achieve IT Limited,
+          recognized the potential to amplify his extensive web development
+          experience on a global scale to uplift promising businesses. This gave
+          birth to Achieve IT Limited, a venture that stands as a testament to
+          his expertise and ambition. <br />
+          Today, Achieve IT Limited boasts a dedicated team of 5+ in-house
+          professionals, alongside a vast remote workforce spanning the globe.
+          Esteemed for its exceptional web development services, the company has
+          garnered prestigious awards and acclaim, solidifying its status as a
+          top-tier B2B marketing and advertising agency. Our passion lies in
+          fostering the growth of authentic businesses. Acknowledging that a
+          proficient and dependable team is the backbone of any enterprise, we
+          seamlessly integrate ourselves into our clients teams to fuel their
+          expansion. <br />
+          While our original focus was web development, client demand led us to
+          evolve into a comprehensive digital marketing agency. Our commitment
+          is not rooted in monetary gain but in the pursuit of challenges,
+          driven by the sheer love for marketing. Every team member shares this
+          dedication and views marketing as a lifelong passion. We pride
+          ourselves on offering an extensive range of digital marketing services
+          under one roof to meet the diverse needs of our clients. Our portfolio
+          encompasses Search Engine Optimization, Content Marketing, IT
+          Solutions, App Development, UI/UX Design, and more. At Achieve IT
+          Limited, our ethos centers on delivering quality marketing and web
+          development services promptly, adding substantial value that
+          consistently exceeds expectations. <br />
+          Our guiding work philosophy is uncompromising: "It must be the
+          absolute best result." Client satisfaction is our paramount objective,
+          and we relentlessly strive to exceed their expectations. Our clients
+          anticipate high-quality outcomes, but we&apos;re resolute in
+          surpassing those anticipations. We&apos;ve consistently demonstrated
+          success in this regard. As we look ahead, our commitment to excellence
+          remains unwavering, driven by our passion for achieving the
+          extraordinary.
         </p>
       </div>
       <div className="md:w-1/2 relative px-5">

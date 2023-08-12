@@ -9,36 +9,48 @@ const OurGoal = () => {
         <h1 className="text-center text-3xl font-bold py-3">OUR VISION</h1>
         <img className="px-5 h-80" src={image7} alt="" />
         <p className="text-justify px-5 mt-3 pb-5">
-          Where most of the digital marketing agencies are after profit, we are
-          after growing the industry itself. Our philosophy is simple- we grow
-          when the industry grows. Everyone at MonsterClaw is passionate about
-          digital marketing and is very deeply connected to this industry. Being
-          one of the pioneers in affiliate marketing, we want to become
-          trendsetters in other aspects of digital marketing as well.
+          Our vision at Achieve IT Limited is to be a pioneering leader in the
+          tech industry, driving innovation and igniting digital transformation.
+          We aspire to reshape industries, empower businesses, and enrich lives
+          globally through our cutting-edge solutions. By fostering a culture of
+          creativity and collaboration, we aim to continually push boundaries
+          and deliver exceptional value to our clients. Our ultimate goal is to
+          be at the forefront of technological advancements, shaping a future
+          where our contributions make a meaningful impact on society, business,
+          and the world at large.
         </p>
       </div>
       <div className="hover:bg-gray-400 hover:text-white rounded-2xl">
         <h1 className="text-center text-3xl font-bold py-3">OUR MISSION</h1>
         <img className="px-5 h-80 mx-auto" src={image6} alt="" />
         <p className="text-justify px-5 mt-3 pb-5">
-          Our mission is to help make businesses receive the highest ROI. We
-          want to help companies market their products and services successfully
-          in highly competitive industries. We believe our growth depends on how
-          much our clients grow and we treat their businesses as our own to
-          ensure maximum growth.
+          At Achieve IT Limited, our mission is clear: we are dedicated to
+          redefining industries through innovative software experiences. We
+          empower businesses with transformative solutions that leverage
+          cutting-edge technology and a commitment to ethical responsibility.
+          Collaboration is at our core, as we believe diverse perspectives fuel
+          groundbreaking advancements. Our culture of continuous learning
+          ensures we stay ahead in the rapidly evolving tech landscape. With
+          unwavering passion, we&apos;re shaping a future where technology
+          isn&apos;t just a tool, but a driving force for positive change and
+          progress.
         </p>
       </div>
       <div className="hover:bg-gray-400 hover:text-white rounded-2xl">
         <h1 className="text-center text-3xl font-bold py-3">OUR VALUES</h1>
         <img className="px-5 " src={image8} alt="" />
         <p className="text-justify px-5 mt-3 pb-5">
-          At MonsterClaw what we do is as important as knowing why we do. We
-          believe Affiliate Marketing is the next big thing for online
-          marketing. We believe over time more and more companies will go
-          online, and the online space will be immensely big, and to do
-          something recognizable in this arena, companies need to push the
-          limit, they need to have the top marketers with them to succeed which
-          will require our expertise.
+          Achieve IT Limited is a dynamic IT company fueled by a
+          commitment to innovation, excellence, and ethical responsibility. Our
+          team thrives on collaboration and continuous learning, delivering
+          tailor-made solutions that empower businesses and drive growth. We
+          take a client-centric approach, understanding unique needs and
+          crafting impactful technology that creates meaningful change.
+          Sustainability is at our core, and we embrace adaptability to navigate
+          the ever-evolving tech landscape. With a passion for progress, we are
+          dedicated to pushing boundaries and leading the way in transformative
+          digital solutions that positively impact industries and society as a
+          whole.
         </p>
       </div>
     </div>
