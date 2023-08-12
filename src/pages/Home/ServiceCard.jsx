@@ -1,3 +1,4 @@
+
 /* eslint-disable react/prop-types */
 import { FaArrowAltCircleRight } from "react-icons/fa";
 
@@ -33,6 +34,7 @@ const ServiceCard = ({ service, setModalInfo }) => {
         </div>
       </div>
     </>
+
   );
 };
 
