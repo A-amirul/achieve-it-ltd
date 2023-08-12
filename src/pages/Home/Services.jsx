@@ -24,6 +24,7 @@ const Services = () => {
       <h3 className="md:text-4xl font-semibold text-center">
         Our Services
       </h3>
+      </div>
     <div className="max-w-screen-xl mx-auto mt-10">
       <p className="text-slate-500 text-center my-2 font-medium">
         Know what kind of services we are offering

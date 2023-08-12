@@ -1,8 +1,6 @@
 const CEOSection = () => {
   return (
-    <div className=" mx-auto max-w-screen-xl py-10">
-    <div className="mt-16 mb-8 flex-row md:flex gap-10 items-center">
-
+    <div className="mt-16 mb-8 flex-row md:flex gap-10  mx-auto max-w-screen-xl py-10 items-center">
       <div className="md:w-1/2">
         <h1 className="text-3xl font-bold px-5">
           HEAR OUR CEO, MRS. SULTAN JERIN ANJUM IN PAYONEER STORIES
