@@ -1,11 +1,11 @@
-import web from "../../assets/web.png";
+import { FaArrowAltCircleRight } from "react-icons/fa";
+import { Link } from "react-router-dom";
+import IT from "../../assets/IT.png";
+import UI from "../../assets/UI.png";
 import app from "../../assets/app.png";
 import graphics from "../../assets/graphics.png";
 import marketing from "../../assets/marketing.png";
-import UI from "../../assets/UI.png";
-import IT from "../../assets/IT.png";
-import { Link } from "react-router-dom";
-import { FaArrowAltCircleRight } from "react-icons/fa";
+import web from "../../assets/web.png";
 
 const Services = () => {
   return (
@@ -110,6 +110,22 @@ const Services = () => {
           </Link>
         </div>
       </div>
+      {/* Open the modal using ID.showModal() method */}
+      <button className="btn" onClick={() => window.my_modal_1.showModal()}>
+        open modal
+      </button>
+      <dialog id="my_modal_1" className="modal">
+        <form method="dialog" className="modal-box">
+          <h3 className="font-bold text-lg">Hello!</h3>
+          <p className="py-4">
+            Press ESC key or click the button below to close
+          </p>
+          <div className="modal-action">
+            {/* if there is a button in form, it will close the modal */}
+            <button className="btn">Close</button>
+          </div>
+        </form>
+      </dialog>
     </div>
   );
 };
