@@ -5,7 +5,7 @@ const UserInfo = () => {
     <div className="flex-row md:flex  items-center justify-center">
       
       <div className="md:w-1/2">
-      <h1 className="text-5xl font-bold">Contact Us</h1>
+      <h1 className="text-4xl font-bold">Contact Us</h1>
         <div className="mt-10">
           <div className="flex-row md:flex gap-6">
             <div className="form-control w-full max-w-xs">
