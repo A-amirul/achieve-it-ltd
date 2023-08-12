@@ -1,9 +1,11 @@
 import { useEffect, useState } from "react";
-import ServiceCard from "./serviceCard";
+
+import ServiceCard from "./ServiceCard";
 
 
 
 const Services = () => {
+
 
   const [services, setServices] = useState([]);
   const [modalInfo, setModalInfo] = useState({});
@@ -18,7 +20,9 @@ const Services = () => {
   return (
     <div className="max-w-screen-xl mx-auto mt-10">
 
+
       <h3 className="md:text-4xl font-semibold text-center">Our Services</h3>
+
 
 
 

@@ -22,7 +22,7 @@ const LeadershipTeam = () =>{
         <div className="border-2 mx-5 md:mx-0 pt-14 pb-20 shadow-xl hover:shadow-2xl">
             <img className="h-52 w-52 rounded-full mx-auto" src={image4} alt="" />
             <h2 className="text-xl font-bold text-center mt-5">XYZ</h2>
-            <h3 className="mt-2 text-center">XYZ</h3>
+            <h3 className="mt-2 text-center">XYZ.</h3>
         </div>
       </div>
     )
