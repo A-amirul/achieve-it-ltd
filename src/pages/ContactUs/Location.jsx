@@ -8,7 +8,7 @@ const Location = () => {
       <div className="">
         <img className="mx-auto" src={logo} alt="" />
       </div>
-      <div className="flex items-center justify-center gap-10">
+      <div className="flex items-center justify-center mb-20 gap-10">
         <img className=" w-20 h-20" src={location} alt="" />
         <p>
           {" "}

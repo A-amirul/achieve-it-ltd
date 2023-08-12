@@ -37,7 +37,7 @@ const OurGoal = () => {
         </p>
       </div>
       <div className="hover:bg-gray-400 hover:text-white rounded-2xl">
-        <h1 className="text-center text-3xl font-bold py-3">OUR VALUES</h1>
+        <h1 className="text-center text-4xl font-semibold py-3">OUR VALUES</h1>
         <img className="px-5 " src={image8} alt="" />
         <p className="text-justify px-5 mt-3 pb-5">
           Achieve IT Limited is a dynamic IT company fueled by a
