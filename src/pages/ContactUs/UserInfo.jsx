@@ -2,7 +2,8 @@ import Location from "./Location";
 
 const UserInfo = () => {
   return (
-    <div className="flex-row md:flex  items-center justify-center">
+      <div className="bg-[#f0f1f5]">
+    <div className="max-w-screen-xl mx-auto flex-row md:flex  items-center justify-center ">
       
       <div className="md:w-1/2">
       <h1 className="text-4xl font-bold">Contact Us</h1>
@@ -79,6 +80,7 @@ const UserInfo = () => {
       </div>
       <div className="md:w-1/2 ">
         <Location></Location>
+      </div>
       </div>
     </div>
   );

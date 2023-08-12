@@ -12,7 +12,8 @@ const Services = () => {
   }, []);
 
   return (
-    <div className="max-w-screen-xl mx-auto mt-10">
+    <div className=" py-10 md:py-24 bg-[#fafafa]">
+      <div className="max-w-screen-xl mx-auto">
       <h3 className="md:text-4xl font-semibold text-center">
         Our Services
       </h3>
@@ -44,6 +45,7 @@ const Services = () => {
           </form>
         </dialog>
       }
+      </div>
     </div>
   );
 };
