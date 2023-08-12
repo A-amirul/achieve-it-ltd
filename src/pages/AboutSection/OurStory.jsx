@@ -1,7 +1,9 @@
-import image1 from "../../assets/AboutSection/images1.jpg";
+
 import image2 from "../../assets/AboutSection/images2.jpg";
-import image3 from "../../assets/AboutSection/images3.png";
+
 import image5 from "../../assets/AboutSection/image5.jpg";
+import image8 from "../../assets/AboutSection/image8.jpg";
+import image9 from "../../assets/AboutSection/image9.jpg";
 
 const OurStory = () => {
   return (
@@ -57,7 +59,7 @@ const OurStory = () => {
         <div className="h-40 md:h-60">
           <img
             className="absolute top-0 right-5 h-40 md:h-60 rounded-2xl"
-            src={image1}
+            src={image9}
             alt=""
           />
         </div>
@@ -71,7 +73,7 @@ const OurStory = () => {
         <div className="h-40 md:h-60">
           <img
             className="absolute top-96 md:top-[350px]  md:right-0  h-40 md:h-60 rounded-2xl"
-            src={image3}
+            src={image8}
             alt=""
           />
         </div>
