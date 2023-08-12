@@ -1,0 +1,38 @@
+[
+  {
+    "id": "1",
+    "name": "Web Development",
+    "description": "Our expert web development team crafts tailored websites that align with your business objectives. We combine aesthetics with functionality, utilizing the latest technologies to create responsive and engaging web experiences. From e-commerce platforms to corporate websites, we ensure a seamless user journey and a strong online presence.",
+    "image": "https://i.ibb.co/fqGv5CQ/web.png"
+  },
+  {
+    "id": "2",
+    "name": "App Development",
+    "description": "Transform your ideas into cutting-edge mobile and web applications with our app development services. We specialize in user-centered design, intuitive navigation, and optimized performance. Whether it's a consumer-facing app or a business tool, we deliver solutions that elevate user engagement and streamline processes.",
+    "image": "https://i.ibb.co/7vy8gYL/app.png"
+  },
+  {
+    "id": "3",
+    "name": "IT Services",
+    "description": "Rely on our comprehensive IT services to ensure your technology infrastructure runs flawlessly. From network setup and cybersecurity to cloud solutions and IT consulting, we keep your business connected, secure, and efficient. Our experienced team addresses tech challenges, so you can focus on driving innovation and growth.",
+    "image": "https://i.ibb.co/ZTWwcSG/IT.png"
+  },
+  {
+    "id": "4",
+    "name": "Digital Marketing",
+    "description": "Our data-driven digital marketing strategies power your online success. We optimize your web presence through SEO, target audiences with precise SEM campaigns, and engage users on social media platforms. From content creation to lead conversion, we help you connect with your target market and achieve measurable results.",
+    "image": "https://i.ibb.co/yd2rStB/marketing.png"
+  },
+  {
+    "id": "5",
+    "name": "UI/UX Design",
+    "description": "Elevate user satisfaction with our UI/UX design services. Our creative team focuses on creating intuitive and visually appealing interfaces. We meticulously craft each element to ensure seamless navigation and delightful interactions, resulting in products that engage users and enhance brand loyalty.",
+    "image": "https://i.ibb.co/82mWwb8/UI.png"
+  },
+  {
+    "id": "6",
+    "name": "Graphics Design",
+    "description": "Stand out in a crowded market with our captivating graphic design services. From eye-catching logos to stunning marketing materials, our designs capture your brand's essence. We blend creativity with strategic thinking to create visuals that leave a lasting impression and reinforce your brand's identity.",
+    "image": "https://i.ibb.co/wwzRkCj/graphics.png"
+  }
+]
