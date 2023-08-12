@@ -2,6 +2,7 @@ import "swiper/css";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
+import "./Clients.css";
 import { Autoplay, Pagination, Grid } from "swiper/modules";
 
 import img1 from "../../assets/clients/1.jpg";
@@ -17,13 +18,13 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 const Clients = () => {
   return (
-    <div>
-      <h1 className="text-center font-semibold text-4xl mt-10">Our Clients</h1>
-      <p className="text-slate-500 text-center my-2 font-medium mb-8">
+    <div className="max-w-screen-xl mx-auto mb-10">
+      <h1 className="text-center font-semibold text-4xl mt-10">Our Clients </h1>
+      <p className="text-slate-500 text-center my-2 font-medium ">
         We are trusted by industry leaders
       </p>
 
-      <>
+      <div className="">
         <Swiper
           spaceBetween={0}
           slidesPerView={5}
@@ -39,7 +40,7 @@ const Clients = () => {
             clickable: true,
           }}
           modules={[Autoplay, Pagination, Grid]}
-          className="mySwiper"
+          className="mySwiper "
         >
           <SwiperSlide>
             <img src={img1} alt="" />
@@ -72,7 +73,7 @@ const Clients = () => {
             <img src={img10} alt="" />
           </SwiperSlide>
         </Swiper>
-      </>
+      </div>
     </div>
   );
 };

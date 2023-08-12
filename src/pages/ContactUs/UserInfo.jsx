@@ -90,6 +90,7 @@ const UserInfo = () => {
       </div>
       </div>
     </div>
+    </div>
   );
 };
 export default UserInfo;
