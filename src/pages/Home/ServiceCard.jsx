@@ -11,7 +11,6 @@ const ServiceCard = (service) => {
         <p className="text-center font-medium text-slate-500 px-2">
           {description?.slice(0, 80)}
         </p>
-
         <button>
           <div className="flex justify-center items-center gap-2 mt-4 hover:bg-grey-600">
             <FaArrowAltCircleRight className="text-blue-500"></FaArrowAltCircleRight>
