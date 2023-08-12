@@ -1,8 +1,13 @@
 import { useEffect, useState } from "react";
 import ServiceCard from "./serviceCard";
 
+
+
 const Services = () => {
-  const [services, setServices] = useState();
+
+  const [services, setServices] = useState([]);
+  const [modalInfo, setModalInfo] = useState({});
+
 
   useEffect(() => {
     fetch("./services.json")
@@ -12,19 +17,40 @@ const Services = () => {
 
   return (
     <div className="max-w-screen-xl mx-auto mt-10">
+
       <h3 className="md:text-4xl font-semibold text-center">Our Services</h3>
+
+
+
       <p className="text-slate-500 text-center my-2 font-medium">
-        know, What kind of services we are offering
+        Know what kind of services we are offering
       </p>
 
       <div className="grid md:grid-cols-3 gap-4 my-10">
+
         {services?.map((service) => (
           <ServiceCard
             key={service.id}
             service={service}
-          ></ServiceCard>
+            setModalInfo={setModalInfo}
+          />
         ))}
       </div>
+
+      {
+        <dialog id="my_modal_1" className="modal">
+          <form method="dialog" className="modal-box">
+            <img className="w-60" src={modalInfo.image} alt="" />
+            <h3 className="font-bold text-lg mt-3">{modalInfo.name}!</h3>
+            <p className="py-4">
+              {modalInfo.description}
+            </p>
+            <div className="modal-action">
+              <button className="btn">Close</button>
+            </div>
+          </form>
+        </dialog>
+      }
     </div>
   );
 };
