@@ -2,10 +2,9 @@ import Location from "./Location";
 
 const UserInfo = () => {
   return (
-    <div className="flex-row md:flex  items-center justify-center">
-      
-      <div className="md:w-1/2">
-      <h1 className="text-4xl font-bold">Contact Us</h1>
+    <div className="flex-row md:flex mx-auto items-center justify-center">
+      <div className="md:w-1/2 ps-6">
+        <h1 className="text-4xl font-bold text-center">Contact Us</h1>
         <div className="mt-10">
           <div className="flex-row md:flex gap-6">
             <div className="form-control w-full max-w-xs">
@@ -74,7 +73,9 @@ const UserInfo = () => {
           </div>
         </div>
         <div className="mr-8 md:mr-0">
-        <button className="w-full text-xl font-semibold py-3 bg-sky-300 hover:bg-sky-800 hover:text-white mt-5 rounded-lg shadow-xl ">Send</button>
+          <button className="w-full text-xl font-semibold py-3 bg-sky-300 hover:bg-sky-800 hover:text-white mt-5 rounded-lg shadow-xl ">
+            Send
+          </button>
         </div>
       </div>
       <div className="md:w-1/2 ">

@@ -1,9 +1,9 @@
 import Footer from "../../shared/Footer/Footer";
 import OurStory from "../AboutSection/OurStory";
-import ContactUs from "../ContactUs/ContactUs";
+import UserInfo from "../ContactUs/UserInfo";
 import Banner from "./Banner";
+import Clients from "./Clients";
 import Services from "./Services";
-
 
 const Home = () => {
   return (
@@ -11,16 +11,13 @@ const Home = () => {
       <Banner></Banner>
       <Services></Services>
 
-
       <div className="max-w-screen-xl mx-auto">
-        <h1 className="font-bold text-center text-4xl mt-8">Our Story</h1>
+        <Clients></Clients>
+        <h1 className="font-bold text-center text-4xl my-8">Our Story</h1>
         <OurStory></OurStory>
+        <UserInfo></UserInfo>
       </div>
-      <ContactUs></ContactUs>
-      
       <Footer></Footer>
-
-
     </>
   );
 };
