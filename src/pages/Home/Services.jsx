@@ -9,7 +9,7 @@ import web from "../../assets/web.png";
 
 const Services = () => {
   return (
-    <div className="max-w-screen-xl mx-auto mt-10">
+    <div className="max-w-screen-xl mx-auto">
       <h3 className="md:text-4xl font-semibold text-center">Our Services</h3>
       <p className="text-slate-500 text-center my-2 font-medium">
         know, What kind of services we are offering
@@ -28,7 +28,7 @@ const Services = () => {
           <Link>
             <div className="flex justify-center items-center gap-2 mt-4 hover:bg-grey-600">
               <FaArrowAltCircleRight className="text-blue-500"></FaArrowAltCircleRight>
-              <p className="text-center font-medium text-blue-500">See More</p>
+              <p className="text-center font-medium text-blue-500" onClick={() => window.my_modal_1.showModal()}>See More</p>
             </div>
           </Link>
         </div>
@@ -44,7 +44,7 @@ const Services = () => {
           <Link>
             <div className="flex justify-center items-center gap-2 mt-4">
               <FaArrowAltCircleRight className="text-blue-500"></FaArrowAltCircleRight>
-              <p className="text-center font-medium text-blue-500">See More</p>
+              <p className="text-center font-medium text-blue-500" onClick={() => window.my_modal_1.showModal()}>See More</p>
             </div>
           </Link>
         </div>
@@ -57,7 +57,7 @@ const Services = () => {
           <Link>
             <div className="flex justify-center items-center gap-2 mt-4">
               <FaArrowAltCircleRight className="text-blue-500"></FaArrowAltCircleRight>
-              <p className="text-center font-medium text-blue-500">See More</p>
+              <p className="text-center font-medium text-blue-500" onClick={() => window.my_modal_1.showModal()}>See More</p>
             </div>
           </Link>
         </div>
@@ -73,7 +73,7 @@ const Services = () => {
           <Link>
             <div className="flex justify-center items-center gap-2 mt-4">
               <FaArrowAltCircleRight className="text-blue-500"></FaArrowAltCircleRight>
-              <p className="text-center font-medium text-blue-500">See More</p>
+              <p className="text-center font-medium text-blue-500" onClick={() => window.my_modal_1.showModal()}>See More</p>
             </div>
           </Link>
         </div>
@@ -89,7 +89,7 @@ const Services = () => {
           <Link>
             <div className="flex justify-center items-center gap-2 mt-4">
               <FaArrowAltCircleRight className="text-blue-500"></FaArrowAltCircleRight>
-              <p className="text-center font-medium text-blue-500">See More</p>
+              <p className="text-center font-medium text-blue-500" onClick={() => window.my_modal_1.showModal()}>See More</p>
             </div>
           </Link>
         </div>
@@ -105,15 +105,13 @@ const Services = () => {
           <Link>
             <div className="flex justify-center items-center gap-2 mt-4">
               <FaArrowAltCircleRight className="text-blue-500"></FaArrowAltCircleRight>
-              <p className="text-center font-medium text-blue-500">See More</p>
+              <p className="text-center font-medium text-blue-500" onClick={() => window.my_modal_1.showModal()}>See More</p>
             </div>
           </Link>
         </div>
       </div>
-      {/* Open the modal using ID.showModal() method */}
-      <button className="btn" onClick={() => window.my_modal_1.showModal()}>
-        open modal
-      </button>
+      <div>
+
       <dialog id="my_modal_1" className="modal">
         <form method="dialog" className="modal-box">
           <h3 className="font-bold text-lg">Hello!</h3>
@@ -126,6 +124,7 @@ const Services = () => {
           </div>
         </form>
       </dialog>
+      </div>
     </div>
   );
 };
