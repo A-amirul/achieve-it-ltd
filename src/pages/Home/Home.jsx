@@ -7,6 +7,7 @@ const Home = () => {
   return (
     <>
       <Banner></Banner>
+      
       <Services></Services>
       <OurStory></OurStory>
       <UserInfo></UserInfo>
