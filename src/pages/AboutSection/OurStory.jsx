@@ -36,14 +36,14 @@ const OurStory = () => {
           Limited, our ethos centers on delivering quality marketing and web
           development services promptly, adding substantial value that
           consistently exceeds expectations. <br />
-          Our guiding work philosophy is uncompromising: "It must be the
-          absolute best result." Client satisfaction is our paramount objective,
-          and we relentlessly strive to exceed their expectations. Our clients
-          anticipate high-quality outcomes, but we&apos;re resolute in
-          surpassing those anticipations. We&apos;ve consistently demonstrated
-          success in this regard. As we look ahead, our commitment to excellence
-          remains unwavering, driven by our passion for achieving the
-          extraordinary.
+          Our guiding work philosophy is uncompromising: &quot;It must be the
+          absolute best result.&quot; Client satisfaction is our paramount
+          objective, and we relentlessly strive to exceed their expectations.
+          Our clients anticipate high-quality outcomes, but we&apos;re resolute
+          in surpassing those anticipations. We&apos;ve consistently
+          demonstrated success in this regard. As we look ahead, our commitment
+          to excellence remains unwavering, driven by our passion for achieving
+          the extraordinary.
         </p>
       </div>
       <div className="md:w-1/2 relative px-5">
