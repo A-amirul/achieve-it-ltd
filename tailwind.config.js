@@ -28,10 +28,14 @@ export default {
           
  "error": "#f87272",
           },
+        },
+          ],
+
 
         },
-      },
-    ],
-  },
-  plugins: [require("daisyui")],
-};
+        plugins: [require("daisyui")],
+        
+      }
+    
+
+  

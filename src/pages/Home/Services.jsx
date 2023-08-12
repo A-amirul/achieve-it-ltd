@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
+import ServiceCard from "./serviceCard";
 
-import ServiceCard from "./ServiceCard";
 
 
 
