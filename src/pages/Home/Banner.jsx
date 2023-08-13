@@ -1,6 +1,11 @@
 import { Link } from "react-router-dom";
+import { useTypewriter } from "react-simple-typewriter";
 
 const Banner = () => {
+  const [text] = useTypewriter({
+    words: [" Innovate, Connect & Succeed", "Your Trusted IT Partner"],
+    loop: 3,
+  });
   return (
     <div className="">
       <div
@@ -17,7 +22,7 @@ const Banner = () => {
                   Achieve <span className="text-yellow-400">IT</span> Limited
                 </h1>
                 <h3 className="text-yellow-400 font-medium text-2xl md:text-4xl">
-                  Innovate, Connect & Succeed
+                  {text} |
                 </h3>
                 <p className="py-4 text-lg lg:me-36 lg:pe-60 text-base-100">
                   Achieve IT Limited is certified next-generation global IT
@@ -25,15 +30,21 @@ const Banner = () => {
                   enterprises reimagine their business and navigate their
                   digital transformation.
                 </p>
-               <div className="pt-4">
-               <Link to="/comingSoon" className="btn bg-gradient-to-r text-lg  from-emerald-500 to-lime-500 mr-4 px-8 font-semibold ">
-                  Visit Here
-                </Link>
-                  
-                <Link to="/comingSoon" className="btn bg-gradient-to-r text-lg px-10   from-orange-500 to-yellow-500 font-semibold">
-                  Services
-                </Link>
-               </div>
+                <div className="pt-4">
+                  <Link
+                    to="/comingSoon"
+                    className="btn bg-gradient-to-r text-lg  from-emerald-500 to-lime-500 mr-4 px-8 font-semibold "
+                  >
+                    Visit Here
+                  </Link>
+
+                  <Link
+                    to="/comingSoon"
+                    className="btn bg-gradient-to-r text-lg px-10   from-orange-500 to-yellow-500 font-semibold"
+                  >
+                    Services
+                  </Link>
+                </div>
               </div>
             </div>
           </div>
