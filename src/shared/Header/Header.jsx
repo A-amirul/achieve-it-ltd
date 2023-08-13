@@ -6,22 +6,37 @@ const Header = () => {
       <li>
         <Link to={`http://localhost:5173/`}>Home</Link>
       </li>
+
       <li>
         <Link to={`http://localhost:5173/about`}>About Us</Link>
       </li>
       <li>
-        <a>Blog Section</a>
+      <details className="dropdown ">
+  <summary className=" ">Company</summary>
+  <ul className="p-2 shadow menu dropdown-content absolute z-[1] bg-base-100 rounded-box w-52">
+    <li><a>Gallary</a></li>
+    <li><a>Testimonials</a></li>
+    <li><a>Teams</a></li>
+    <li><a>Pricings</a></li>
+  </ul>
+</details>
+      </li>
+      <li>
+        <Link to="/comingSoon">Blog Section</Link>
       </li>
       <li>
         <Link to={`http://localhost:5173/contact`}>Contact US</Link>
+      </li>
+      <li>
+        <Link to="/ComingSoon">Career</Link>
       </li>
     </>
   );
 
   return (
-    <div className=" bg-gray-700 w-full">
-      <div className=" bg-black w-full">
-        <div className="navbar  max-w-screen-xl mx-auto z-10  text-white px-8">
+    <div className="bg- w-full">
+      <div className=" ">
+        <div className="navbar  max-w-screen-xl mx-auto z-10  text-black px-8">
           <div className="navbar-start">
             <div className="dropdown px-2">
               <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -49,7 +64,7 @@ const Header = () => {
             </div>
             <Link to="/" className="font-bold text-xl">
               <img
-                className="mx-auto"
+                className="mx-auto bg-blue-900"
                 style={{ width: "100px", height: "80px" }}
                 src={logo}
                 alt=""

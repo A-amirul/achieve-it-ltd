@@ -7,7 +7,7 @@ const Banner = () => {
     loop: 3,
   });
   return (
-    <div className="">
+    <div className="relative">
       <div
         className="bg-cover bg-center h-[calc(100vh-115px)]"
         style={{
