@@ -10,16 +10,6 @@ const Header = () => {
         <Link to={`http://localhost:5173/about`}>About Us</Link>
       </li>
       <li>
-        <a>Services</a>
-      </li>
-
-      <li>
-        <a>Team Members</a>
-      </li>
-      <li>
-        <a>Client Testimonials</a>
-      </li>
-      <li>
         <a>Blog Section</a>
       </li>
       <li>
