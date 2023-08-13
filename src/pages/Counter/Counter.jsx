@@ -17,7 +17,7 @@ const Counter = () => {
                   <p className="text-7xl font-medium text-blue-800">
                     <span ref={countUpRef} />+
                   </p>
-                  <p className="text-lg font-semibold text-gray-500 mt-2">
+                  <p className="text-lg font-semibold text-[#f74883] mt-2">
                     Our Total Project
                   </p>
                   
@@ -31,7 +31,7 @@ const Counter = () => {
                   <p className="text-7xl font-medium text-blue-800">
                     <span ref={countUpRef} />+
                   </p>
-                  <p className="text-lg font-semibold text-gray-500 mt-2">
+                  <p className="text-lg font-semibold text-[#f74883] mt-2">
                     Our Active Member
                   </p>
                 </div>
@@ -43,7 +43,7 @@ const Counter = () => {
                   <p className="text-7xl font-medium text-blue-800">
                     <span ref={countUpRef} />+
                   </p>
-                  <p className="text-lg font-semibold text-gray-500 mt-2">
+                  <p className="text-lg font-semibold text-[#f74883] mt-2">
                     Our Team Member
                   </p>
                 </div>
