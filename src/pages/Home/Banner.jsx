@@ -27,7 +27,7 @@ const Banner = () => {
                 <p className="py-4 text-lg lg:me-36 lg:pe-60 text-base-100">
                   Achieve IT Limited is certified next-generation global IT
                   service and technology solution provider company that helps
-                  enterprises reimagine their business and navigate their
+                  enterprises re-imagine their business and navigate their
                   digital transformation.
                 </p>
                 <div className="pt-4">
