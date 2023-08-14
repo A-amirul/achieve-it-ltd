@@ -1,14 +1,9 @@
 import logo from "../../assets/logo/logo.png";
 const Footer = () => {
   return (
-    <div className="bg-[#297583] text-base-100 ">
+    <div className="bg-[#297583] text-base-100 mx-auto px-20">
       <footer className="footer pt-8 max-w-screen-xl mx-auto">
         <div className="text-xl ">
-          <div>
-            <div className="items-center grid-flow-col bg-black">
-              <img className="w-36" src={logo} alt="" />
-            </div>
-          </div>
           <span className="footer-title">Services</span>
           <a className="link link-hover">Branding</a>
           <a className="link link-hover">Design</a>
@@ -27,6 +22,18 @@ const Footer = () => {
           <a className="link link-hover">Terms of use</a>
           <a className="link link-hover">Privacy policy</a>
           <a className="link link-hover">Cookie policy</a>
+        </div>
+        <div>
+          <div className=" Grid justify-center items-center">
+            <img className="w-36" src={logo} alt="" />
+          </div>
+          <p>
+            <span className="text-2xl font-bold">
+              Natural Madina Tower,
+            </span>
+            <br /> East Vatara (Sayeed Nagor), <br /> 100 Feet, <br /> Gulshan,
+            Vatara, Dhaka
+          </p>
         </div>
       </footer>
       <footer className="footer  pt-4 max-w-screen-xl mx-auto border-base-300">
