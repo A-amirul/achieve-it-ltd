@@ -22,7 +22,7 @@ const Header = () => {
 </details>
       </li>
       <li>
-        <Link to="/comingSoon">Blog Section</Link>
+        <Link to="/blog">Blog Section</Link>
       </li>
       <li>
         <Link to={`http://localhost:5173/contact`}>Contact US</Link>
