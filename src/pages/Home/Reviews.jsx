@@ -6,7 +6,7 @@ import img3 from "../../assets/clients/c4.jpg";
 import img4 from "../../assets/clients/c5.jpg";
 const Reviews = () => {
   return (
-    <div>
+    <div className="font-serif">
       <h1 className="text-4xl mt-16 mb-8 font-semibold text-center">
         Our Clients Reviews
       </h1>
@@ -17,8 +17,8 @@ const Reviews = () => {
       <div className="md:max-w-screen-xl mx-auto">
         <Marquee>
           <div className="grid grid-cols-5 px-10 gap-4">
-            <div className=" bg-white max-w-[300px] shadow-lg p-4 rounded-xl my-10">
-              <p>
+            <div className=" bg-white max-w-[280px] shadow-lg p-4 rounded-xl my-10">
+              <p className="text-justify">
                 &quot;Achieve IT Limited transformed our network infrastructure.
                 Their proactive approach to monitoring and maintaining our
                 systems has kept us online and efficient without a hitch.&quot;
@@ -26,13 +26,15 @@ const Reviews = () => {
               <div className="flex justify-center items-center my-4">
                 <img className="w-16 h-16 rounded-full mx-2" src={img} alt="" />
                 <div>
-                  <h3 className="font-bold text-2xl">Jon Abraham</h3>
-                  <h3 className="font-semibold">CIO, Info Stream Solution</h3>
+                  <h3 className="font-bold text-xl">Jon Abraham</h3>
+                  <h3 className="font-medium text-slate-600">
+                    CIO, Info Stream Solution
+                  </h3>
                 </div>
               </div>
             </div>
-            <div className=" bg-white max-w-[300px] shadow-lg p-4 rounded-xl my-10">
-              <p>
+            <div className=" bg-white max-w-[280px] shadow-lg p-4 rounded-xl my-10">
+              <p className="text-justify">
                 &quot;Achieve IT Limited is our cybersecurity shield. Their
                 comprehensive strategies and rapid response to potential threats
                 have given us peace of mind knowing our data is in safe
@@ -45,15 +47,15 @@ const Reviews = () => {
                   alt=""
                 />
                 <div>
-                  <h3 className="font-bold text-2xl">Jon Abraham</h3>
-                  <h3 className="font-semibold">
-                    CTO, NetworkNinjas IT Solutions
+                  <h3 className="font-bold text-xl">Jon Abraham</h3>
+                  <h3 className="font-medium text-slate-600">
+                    CTO, Network Ninjas IT Solutions
                   </h3>
                 </div>
               </div>
             </div>
-            <div className=" bg-white max-w-[300px] shadow-lg p-4 rounded-xl my-10">
-              <p>
+            <div className=" bg-white max-w-[280px] shadow-lg p-4 rounded-xl my-10">
+              <p className="text-justify">
                 &quot;Achieve IT Limited turned our software idea into reality.
                 Their development team&apos;s expertise and dedication resulted
                 in an application that exceeded our expectations in terms of
@@ -66,13 +68,15 @@ const Reviews = () => {
                   alt=""
                 />
                 <div>
-                  <h3 className="font-bold text-2xl">Adam Russel</h3>
-                  <h3 className="font-semibold">CEO, CodeClub IT</h3>
+                  <h3 className="font-bold text-xl">Adam Russel</h3>
+                  <h3 className="font-medium text-slate-600">
+                    CEO, CodeClub IT
+                  </h3>
                 </div>
               </div>
             </div>
-            <div className=" bg-white max-w-[300px] shadow-lg p-4 rounded-xl my-10">
-              <p>
+            <div className=" bg-white max-w-[280px] shadow-lg p-4 rounded-xl my-10">
+              <p className="text-justify">
                 &quot;Achieve IT Limited migrated our operations to the cloud
                 seamlessly. The scalability and reliability of their cloud
                 solutions have elevated our business, ensuring smooth operations
@@ -85,15 +89,15 @@ const Reviews = () => {
                   alt=""
                 />
                 <div>
-                  <h3 className="font-bold text-2xl">Mark Leo</h3>
-                  <h3 className="font-semibold">
-                    CEO, TechAssist Helpdesk Support
+                  <h3 className="font-bold text-xl">Mark Leo</h3>
+                  <h3 className="font-medium text-slate-600">
+                    CEO, TechAssist Help desk Support
                   </h3>
                 </div>
               </div>
             </div>
-            <div className=" bg-white max-w-[300px] shadow-lg p-4 rounded-xl my-10">
-              <p>
+            <div className=" bg-white max-w-[280px] shadow-lg p-4 rounded-xl my-10">
+              <p className="text-justify">
                 &quot;Achieve IT Limited support is unmatched. Their
                 knowledgeable team is available around the clock, resolving our
                 IT issues promptly. Their quick response time minimizes
@@ -106,8 +110,8 @@ const Reviews = () => {
                   alt=""
                 />
                 <div>
-                  <h3 className="font-bold text-2xl">John Smith</h3>
-                  <h3 className="font-semibold">
+                  <h3 className="font-bold text-xl">John Smith</h3>
+                  <h3 className="font-medium text-slate-600">
                     CIO, DataVault Cloud Services
                   </h3>
                 </div>

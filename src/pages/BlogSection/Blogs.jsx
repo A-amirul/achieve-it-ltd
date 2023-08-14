@@ -1,7 +1,7 @@
 const Blogs = () => {
   return (
-    <div className="md:max-w-screen-xl mx-auto px-8">
-      <p className="p-4 w-full mt-10 text-lg">
+    <div className="md:max-w-screen-xl mx-auto px-8 font-serif text-justify">
+      <p className="py-4 w-full mt-10 text-xl">
         In today&apos;s fast-paced world, where technology is at the heart of
         every business operation, I am Md Fazlay Rabbi, founder of our esteemed
         IT company, am thrilled to share my thoughts with you through this blog.
@@ -14,7 +14,7 @@ const Blogs = () => {
             <h1 className="text-xl font-semibold  py-4">
               Empowering Businesses Through Technology: Our Core Beliefs
             </h1>
-            <p>
+            <p className="text-lg">
               From the inception of our company, the mission has been clear: to
               empower businesses of all sizes to harness the power of technology
               for growth and efficiency. In this era of digital transformation,
@@ -28,7 +28,7 @@ const Blogs = () => {
             <h1 className="text-xl font-semibold  py-4">
               Innovation as a Way of Life
             </h1>
-            <p>
+            <p className="text-lg">
               Innovation isn&apos;t just a buzzword for us; it&apos;s embedded
               in our DNA. We believe that staying ahead in the IT world requires
               a constant thirst for learning and adapting. Our team of skilled
@@ -44,7 +44,7 @@ const Blogs = () => {
             <h1 className="text-xl font-semibold py-4">
               Customer-Centric Approach: Your Success, Our Achievement
             </h1>
-            <p>
+            <p className="text-lg">
               Our success isn&apos;t measured solely by the services we provide,
               but by the success stories of our clients. Your triumphs are our
               triumphs, and we&apos;re committed to walking hand in hand with
@@ -57,7 +57,7 @@ const Blogs = () => {
             <h1 className="text-xl font-semibold py-4">
               The Human Touch in a Digital World
             </h1>
-            <p>
+            <p className="text-lg">
               The Human Touch in a Digital World In a world dominated by
               algorithms and automation, we never underestimate the importance
               of the human touch. Behind every line of code, every security
@@ -73,7 +73,7 @@ const Blogs = () => {
         </div>
       </div>
       <br />
-      <p className="w-full py-8">
+      <p className="w-full py-8 text-xl">
         Thank you for joining me on this exciting adventure. Remember, the
         future is digital, and together, we&apos;re not just embracing it –
         we&apos;re shaping it. Stay tuned for more insights, trends, and
