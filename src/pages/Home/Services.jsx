@@ -13,7 +13,7 @@ const Services = () => {
 
   return (
     <div className=" py-10 md:py-24 bg-white">
-      <div className="max-w-screen-xl mx-auto">
+      <div className="max-w-screen-xl mx-auto ">
         <h3 className="md:text-4xl font-semibold text-center">Our Services</h3>
       </div>
       <div className="max-w-screen-xl mx-auto mt-10">
@@ -21,7 +21,7 @@ const Services = () => {
           Know what kind of services we are offering
         </p>
 
-        <div className="grid md:grid-cols-3 gap-4 my-10">
+        <div className="grid md:grid-cols-3 gap-4 my-10 ">
           {services?.map((service) => (
             <ServiceCard
               key={service.id}

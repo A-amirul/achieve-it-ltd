@@ -18,7 +18,7 @@ const Welcome = () => {
               <span className="font-bold"> Preferred IT Partner</span>
             </h1>
           </div>
-          <p className="md:max-w-[600px] w-full py-8 text-justify">
+          <p className="md:max-w-[600px]  py-8 text-justify">
             Our IT Solutions will get you on move towards your destination
             faster than rivals in a more reliably way!.Undergoes robust quality
             testing to ensure flawless, round the clock, and world-class
@@ -32,7 +32,7 @@ const Welcome = () => {
               <span className="flex">
                 <img className="w-8 h-8" src={right} alt="" />
                 We are committed to providing quality IT Services
-              </span>{" "}
+              </span>
             </li>
             <li>
               <span className="flex">
