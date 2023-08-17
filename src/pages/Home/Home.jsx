@@ -2,7 +2,6 @@ import Footer from "../../shared/Footer/Footer";
 import OurStory from "../AboutSection/OurStory";
 import Counter from "../Counter/Counter";
 import Banner from "./Banner";
-import BannerSlider from "./BannerSlider";
 import Clients from "./Clients";
 import Reviews from "./Reviews";
 import Services from "./Services";

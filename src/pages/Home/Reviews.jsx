@@ -1,7 +1,6 @@
 import Marquee from "react-fast-marquee";
 import img from "../../assets/clients/c1.jpg";
 import img1 from "../../assets/clients/c2.jpg";
-import img2 from "../../assets/clients/c3.jpg";
 import img3 from "../../assets/clients/c4.jpg";
 import img4 from "../../assets/clients/c5.jpg";
 import img15 from "../../assets/clients/15.jpg";
