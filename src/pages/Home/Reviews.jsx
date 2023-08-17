@@ -4,6 +4,7 @@ import img1 from "../../assets/clients/c2.jpg";
 import img2 from "../../assets/clients/c3.jpg";
 import img3 from "../../assets/clients/c4.jpg";
 import img4 from "../../assets/clients/c5.jpg";
+import img15 from "../../assets/clients/15.jpg";
 const Reviews = () => {
   return (
     <div className="font-serif">
@@ -19,26 +20,19 @@ const Reviews = () => {
           <div className="grid grid-cols-5 px-10 gap-4">
             <div className=" bg-white max-w-[280px] shadow-lg p-4 rounded-xl my-10">
               <p className="text-justify">
-                &quot;Achieve IT Limited transformed our network infrastructure.
-                Their proactive approach to monitoring and maintaining our
-                systems has kept us online and efficient without a hitch.&quot;
+              Kudos to Achieve IT for their cutting-edge approach to web development. Their use of the latest technologies has given my website a competitive edge. Truly innovative!
               </p>
               <div className="flex justify-center items-center my-4">
                 <img className="w-16 h-16 rounded-full mx-2" src={img} alt="" />
                 <div>
-                  <h3 className="font-bold text-xl">Jon Abraham</h3>
-                  <h3 className="font-medium text-slate-600">
-                    CIO, Info Stream Solution
-                  </h3>
+                  <h3 className="font-bold text-xl">Akram Khan</h3>
+                  
                 </div>
               </div>
             </div>
             <div className=" bg-white max-w-[280px] shadow-lg p-4 rounded-xl my-10">
               <p className="text-justify">
-                &quot;Achieve IT Limited is our cybersecurity shield. Their
-                comprehensive strategies and rapid response to potential threats
-                have given us peace of mind knowing our data is in safe
-                hands.&quot;
+                &quot;The mobile app developed by Achieve IT is a game-changer for my business. The user-friendly interface and smooth performance have attracted rave reviews from my customers.&quot;
               </p>
               <div className="flex justify-center items-center my-4">
                 <img
@@ -47,40 +41,32 @@ const Reviews = () => {
                   alt=""
                 />
                 <div>
-                  <h3 className="font-bold text-xl">Jon Abraham</h3>
+                  <h3 className="font-bold text-xl">Aminul Islam</h3>
                   <h3 className="font-medium text-slate-600">
-                    CTO, Network Ninjas IT Solutions
+                    
                   </h3>
                 </div>
               </div>
             </div>
             <div className=" bg-white max-w-[280px] shadow-lg p-4 rounded-xl my-10">
               <p className="text-justify">
-                &quot;Achieve IT Limited turned our software idea into reality.
-                Their development team&apos;s expertise and dedication resulted
-                in an application that exceeded our expectations in terms of
-                functionality and user experience&quot;
+                Achieve IT turns dreams into digital reality! Their mobile app transformed my innovative idea into a practical solution. Their attention to detail is commendable.
               </p>
               <div className="flex justify-center items-center my-4">
                 <img
                   className="w-16 h-16 rounded-full mx-2"
-                  src={img2}
+                  src={img15}
                   alt=""
                 />
                 <div>
-                  <h3 className="font-bold text-xl">Adam Russel</h3>
-                  <h3 className="font-medium text-slate-600">
-                    CEO, CodeClub IT
-                  </h3>
+                  <h3 className="font-bold text-xl">Nusrat Jahan</h3>
+                 
                 </div>
               </div>
             </div>
             <div className=" bg-white max-w-[280px] shadow-lg p-4 rounded-xl my-10">
               <p className="text-justify">
-                &quot;Achieve IT Limited migrated our operations to the cloud
-                seamlessly. The scalability and reliability of their cloud
-                solutions have elevated our business, ensuring smooth operations
-                even during peak demand&quot;
+              Impressed by Achieve IT&apos;s coding prowess! They created a custom web solution for my e-commerce store that&apos;s both visually appealing and highly functional. A job well done!.
               </p>
               <div className="flex justify-center items-center my-4">
                 <img
@@ -89,19 +75,14 @@ const Reviews = () => {
                   alt=""
                 />
                 <div>
-                  <h3 className="font-bold text-xl">Mark Leo</h3>
-                  <h3 className="font-medium text-slate-600">
-                    CEO, TechAssist Help desk Support
-                  </h3>
+                  <h3 className="font-bold text-xl">Shafiq Ahmed</h3>
+                  
                 </div>
               </div>
             </div>
             <div className=" bg-white max-w-[280px] shadow-lg p-4 rounded-xl my-10">
               <p className="text-justify">
-                &quot;Achieve IT Limited support is unmatched. Their
-                knowledgeable team is available around the clock, resolving our
-                IT issues promptly. Their quick response time minimizes
-                disruptions and keeps us productive.&quot;
+              Thanks to Achieve IT, my online business is thriving. Their e-commerce web solution is driving sales and providing an engaging shopping experience. Highly recommended!
               </p>
               <div className="flex justify-center items-center my-4">
                 <img
@@ -110,10 +91,8 @@ const Reviews = () => {
                   alt=""
                 />
                 <div>
-                  <h3 className="font-bold text-xl">John Smith</h3>
-                  <h3 className="font-medium text-slate-600">
-                    CIO, DataVault Cloud Services
-                  </h3>
+                  <h3 className="font-bold text-xl">Imran Khan</h3>
+                 
                 </div>
               </div>
             </div>

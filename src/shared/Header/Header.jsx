@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import {NavLink } from "react-router-dom";
 import logo from "../../assets/logo/logo.png";
 const Header = () => {
   const navOptions = (
@@ -14,11 +14,19 @@ const Header = () => {
 
         <div className="md:flex md:mx-[300px]">
           <li>
-            <Link to={`http://localhost:5173/`}>Home</Link>
+            <NavLink to={`/`} >
+              {({ isActive }) => (
+                <span className={isActive ? "active" : ""}>Home</span>
+              )}
+            </NavLink>
           </li>
 
           <li>
-            <Link to={`http://localhost:5173/about`}>About Us</Link>
+            <NavLink to={`/about`}>
+              {({ isActive }) => (
+                <span className={isActive ? "active" : ""}>About Us</span>
+              )}
+            </NavLink>
           </li>
           <li>
             <details className="dropdown dropdown-hover">
@@ -28,28 +36,58 @@ const Header = () => {
                 className="dropdown-content z-[1] menu shadow bg-blue-600 text-white rounded-box w-52"
               >
                 <li>
-                  <a>Gallery</a>
+                  <NavLink to={`/gallery`}>
+                    {({ isActive }) => (
+                      <span className={isActive ? "active" : ""}>Gallery</span>
+                    )}
+                  </NavLink>
                 </li>
                 <li>
-                  <a>Teams</a>
+                  <NavLink to={`/teams`}>
+                    {({ isActive }) => (
+                      <span className={isActive ? "active" : ""}>Teams</span>
+                    )}
+                  </NavLink>
                 </li>
                 <li>
-                  <a>Testimonials</a>
+                  <NavLink to={`/testimonials`}>
+                    {({ isActive }) => (
+                      <span className={isActive ? "active" : ""}>
+                        Testimonials
+                      </span>
+                    )}
+                  </NavLink>
                 </li>
                 <li>
-                  <a>Pricing</a>
+                  <NavLink to={`/pricing`}>
+                    {({ isActive }) => (
+                      <span className={isActive ? "active" : ""}>Pricing</span>
+                    )}
+                  </NavLink>
                 </li>
               </ul>
             </details>
           </li>
           <li>
-            <Link to="/blog">Blog Section</Link>
+            <NavLink to={`/blog`}>
+              {({ isActive }) => (
+                <span className={isActive ? "active" : ""}>Blog Section</span>
+              )}
+            </NavLink>
           </li>
           <li>
-            <Link to={`http://localhost:5173/contact`}>Contact US</Link>
+            <NavLink to={`/contact`}>
+              {({ isActive }) => (
+                <span className={isActive ? "active" : ""}>Contact US</span>
+              )}
+            </NavLink>
           </li>
           <li>
-            <Link to="/ComingSoon">Career</Link>
+            <NavLink to={`/ComingSoon`}>
+              {({ isActive }) => (
+                <span className={isActive ? "active" : ""}>Career</span>
+              )}
+            </NavLink>
           </li>
         </div>
       </div>
@@ -57,13 +95,14 @@ const Header = () => {
   );
 
   return (
-    <div className="navbar bg-blue-500  font-semibold text-lg">
+    <div className="navbar bg-blue-800 font-semibold text-lg py-0">
       <div className="navbar-start">
         <div className="dropdown">
-          <label tabIndex={0} className="btn btn-ghost lg:hidden">
+          <label tabIndex={0} className="btn btn-ghost lg:hidden w-[300px] ">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="h-5 w-5"
+              
+              className="h-5 w-5 bg-white"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -75,6 +114,7 @@ const Header = () => {
                 d="M4 6h16M4 12h8m-8 6h16"
               />
             </svg>
+            <p className="text-white pl-6">Achieve IT Limited</p>
           </label>
           <ul
             tabIndex={0}
