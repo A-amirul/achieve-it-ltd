@@ -15,7 +15,7 @@ const AboutSection = () => {
       <div className="mt-16 mb-10">
         <h1 className="text-5xl font-semibold px-5 text-center">
           {" "}
-          LEADERSHIP TEAM{" "}
+          Leadership & Team Members{" "}
         </h1>
         <LeadershipTeam></LeadershipTeam>
       </div>
