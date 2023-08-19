@@ -3,7 +3,7 @@ const CEOSection = () => {
     <div className="mt-16 mb-8 flex-row md:flex gap-10  mx-auto max-w-screen-xl py-10 items-center">
       <div className="md:w-1/2">
         <h1 className="text-3xl font-bold px-5">
-          HEAR OUR CEO, MRS. SULTAN JERIN ANJUM IN PAYONEER STORIES
+          HEAR OUR CEO, MRS. SULTANA JERIN ANJUM IN PAYONEER STORIES
         </h1>
         <p className="mt-5 px-5 text-justify">
           As the CEO of Achieve IT Limited, my primary goal is to drive
