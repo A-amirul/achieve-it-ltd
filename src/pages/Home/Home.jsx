@@ -1,4 +1,3 @@
-import Footer from "../../shared/Footer/Footer";
 import OurStory from "../AboutSection/OurStory";
 import Counter from "../Counter/Counter";
 import Banner from "./Banner";
@@ -17,10 +16,7 @@ const Home = () => {
       <Services></Services>
       <Clients></Clients>
       <OurStory></OurStory>
-
-
       <Reviews></Reviews>
-      <Footer></Footer>
     </>
   );
 };

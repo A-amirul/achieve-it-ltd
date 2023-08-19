@@ -4,6 +4,7 @@ import img1 from "../../assets/clients/c2.jpg";
 import img3 from "../../assets/clients/c4.jpg";
 import img4 from "../../assets/clients/c5.jpg";
 import img15 from "../../assets/clients/15.jpg";
+import { FaQuoteLeft } from "react-icons/fa";
 const Reviews = () => {
   return (
     <div className="font-serif">
@@ -17,81 +18,86 @@ const Reviews = () => {
       <div className="md:max-w-screen-xl mx-auto">
         <Marquee>
           <div className="grid grid-cols-5 px-10 gap-4">
-            <div className=" bg-white max-w-[280px] shadow-lg p-4 rounded-xl my-10">
-              <p className="text-justify">
-              Kudos to Achieve IT for their cutting-edge approach to web development. Their use of the latest technologies has given my website a competitive edge. Truly innovative!
+            <div className=" bg-white max-w-[280px] h-72 shadow-lg p-4 rounded-xl my-10 relative">
+              <p className="text-2xl text-gray-300 pb-4"><FaQuoteLeft></FaQuoteLeft></p>
+              <p className="text-justify text-gray-500">
+              Kudos to Achieve IT&apos;s innovative web development. Utilizing the latest tech, they&apos;ve given my site a competitive edge. Impressive work!
               </p>
-              <div className="flex justify-center items-center my-4">
+              <div className="absolute bottom-0 flex justify-center items-center my-4">
                 <img className="w-16 h-16 rounded-full mx-2" src={img} alt="" />
                 <div>
-                  <h3 className="font-bold text-xl">Akram Khan</h3>
-                  
+                  <h3 className="font-bold text-lg">Akram Khan</h3>
+                  <small className="text-gray-400 ">Managing Director</small>
                 </div>
               </div>
             </div>
-            <div className=" bg-white max-w-[280px] shadow-lg p-4 rounded-xl my-10">
-              <p className="text-justify">
-                &quot;The mobile app developed by Achieve IT is a game-changer for my business. The user-friendly interface and smooth performance have attracted rave reviews from my customers.&quot;
+            <div className="relative bg-white max-w-[280px] h-72 shadow-lg p-4 rounded-xl my-10">
+            <p className="text-2xl text-gray-300 pb-4"><FaQuoteLeft></FaQuoteLeft></p>
+              <p className="text-justify text-gray-500">
+              Achieve IT&apos;s app revolutionized my business with its user-friendly interface and exceptional performance, earning enthusiastic customer reviews.
               </p>
-              <div className="flex justify-center items-center my-4">
+              <div className="absolute bottom-0 flex justify-center items-center my-4">
                 <img
                   className="w-16 h-16 rounded-full mx-2"
                   src={img1}
                   alt=""
                 />
                 <div>
-                  <h3 className="font-bold text-xl">Aminul Islam</h3>
+                  <h3 className="font-bold text-lg">Aminul Islam</h3>
                   <h3 className="font-medium text-slate-600">
-                    
+                  <small className="text-gray-400 ">COO </small>
                   </h3>
                 </div>
               </div>
             </div>
-            <div className=" bg-white max-w-[280px] shadow-lg p-4 rounded-xl my-10">
-              <p className="text-justify">
-                Achieve IT turns dreams into digital reality! Their mobile app transformed my innovative idea into a practical solution. Their attention to detail is commendable.
+            <div className="relative bg-white max-w-[280px] h-72 shadow-lg p-4 rounded-xl my-10">
+            <p className="text-2xl text-gray-300 pb-4"><FaQuoteLeft></FaQuoteLeft></p>
+              <p className="text-justify text-gray-500">
+              Achieve IT makes dreams real! Their app turned my idea into reality, showcasing attention to detail.
               </p>
-              <div className="flex justify-center items-center my-4">
+              <div className="absolute bottom-0 flex justify-center items-center my-4">
                 <img
                   className="w-16 h-16 rounded-full mx-2"
                   src={img15}
                   alt=""
                 />
                 <div>
-                  <h3 className="font-bold text-xl">Nusrat Jahan</h3>
-                 
+                  <h3 className="font-bold text-lg">Nusrat Jahan</h3>
+                  <small className="text-gray-400 ">HR-Hero IT </small>
                 </div>
               </div>
             </div>
-            <div className=" bg-white max-w-[280px] shadow-lg p-4 rounded-xl my-10">
-              <p className="text-justify">
+            <div className="relative bg-white max-w-[280px] h-72 shadow-lg p-4 rounded-xl my-10">
+            <p className="text-2xl text-gray-300 pb-4"><FaQuoteLeft></FaQuoteLeft></p>
+              <p className="text-justify text-gray-500">
               Impressed by Achieve IT&apos;s coding prowess! They created a custom web solution for my e-commerce store that&apos;s both visually appealing and highly functional. A job well done!.
               </p>
-              <div className="flex justify-center items-center my-4">
+              <div className="absolute bottom-0 flex justify-center items-center my-4">
                 <img
                   className="w-16 h-16 rounded-full mx-2"
                   src={img3}
                   alt=""
                 />
                 <div>
-                  <h3 className="font-bold text-xl">Shafiq Ahmed</h3>
-                  
+                  <h3 className="font-bold text-lg">Shafiq Ahmed</h3>
+                  <small className="text-gray-400 ">IT Executive </small>
                 </div>
               </div>
             </div>
-            <div className=" bg-white max-w-[280px] shadow-lg p-4 rounded-xl my-10">
-              <p className="text-justify">
+            <div className="relative bg-white max-w-[280px] h-72 shadow-lg p-4 rounded-xl my-10">
+            <p className="text-2xl text-gray-300 pb-4"><FaQuoteLeft></FaQuoteLeft></p>
+              <p className="text-justify text-gray-500">
               Thanks to Achieve IT, my online business is thriving. Their e-commerce web solution is driving sales and providing an engaging shopping experience. Highly recommended!
               </p>
-              <div className="flex justify-center items-center my-4">
+              <div className="absolute bottom-0 flex justify-center items-center my-4">
                 <img
                   className="w-16 h-16 rounded-full mx-2"
                   src={img4}
                   alt=""
                 />
                 <div>
-                  <h3 className="font-bold text-xl">Imran Khan</h3>
-                 
+                  <h3 className="font-bold text-lg">Imran Khan</h3>
+                  <small className="text-gray-400 ">Project Manager </small>
                 </div>
               </div>
             </div>
