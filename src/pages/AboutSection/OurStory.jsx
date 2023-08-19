@@ -8,7 +8,7 @@ const OurStory = () => {
   return (
     <div className="bg-[#fafafa]">
       <div className="mx-auto max-w-screen-xl pt-16">
-        <h1 className="text-4xl mt-16 mb-8 font-semibold text-center">
+        <h1 className="text-4xl mt-16 mb-8 font-semibold text-center w-60 mx-auto border-y-2 pb-1 border-blue-400">
           Our Story
         </h1>
         <p className="text-slate-500 text-center my-2 font-medium">
