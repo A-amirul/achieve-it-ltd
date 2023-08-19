@@ -2,8 +2,6 @@ import Footer from "../../shared/Footer/Footer";
 import OurStory from "../AboutSection/OurStory";
 import Counter from "../Counter/Counter";
 import Banner from "./Banner";
-import BannerSlider from "./BannerSlider";
-import Become from "./Become";
 import Clients from "./Clients";
 import Reviews from "./Reviews";
 import Services from "./Services";
@@ -20,7 +18,6 @@ const Home = () => {
       <Clients></Clients>
       <OurStory></OurStory>
       <Reviews></Reviews>
-      {/* <Become></Become> */}
       <Footer></Footer>
     </>
   );
