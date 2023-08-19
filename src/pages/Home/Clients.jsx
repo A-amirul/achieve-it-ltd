@@ -14,8 +14,8 @@ import img10 from "../../assets/clients/10.jpg";
 const Clients = () => {
   return (
     <div className="max-w-screen-xl mx-auto mb-10">
-      <h1 className="text-center font-semibold text-4xl mt-10 my-4">
-        Our Clients{" "}
+      <h1 className="text-center font-semibold text-4xl mt-10 my-4 w-60 mx-auto border-y-2 pb-1 border-blue-400">
+        Our Clients
       </h1>
       <p className="text-slate-500 text-center my-4 font-medium pb-8">
         We are trusted by industry leaders

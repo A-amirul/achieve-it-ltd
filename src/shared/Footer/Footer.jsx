@@ -33,8 +33,7 @@ const Footer = () => {
           </div>
           <p>
             <span className="text-2xl font-bold">Natural Madina Tower,</span>
-            <br /> East Vatara (Sayeed Nagor), <br /> 100 Feet, <br /> Gulshan,
-            Vatara, Dhaka
+            <br /> East Vatara (Sayeed Nagor), <br /> 100 Feet, <br /> Gulshan , Dhaka 1212
           </p>
         </div>
       </footer>
