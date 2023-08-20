@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import logo from "../../assets/logo/logo.png";
 import { FaFacebookF, FaLinkedinIn, FaTwitter, FaYoutube } from "react-icons/fa";
 const Footer = () => {
@@ -39,12 +40,12 @@ const Footer = () => {
       <footer className="footer  pt-4 max-w-screen-xl mx-auto border-base-300">
         <div className="md:place-self-center md:justify-self-center">
           <div className="grid grid-flow-col gap-4">
-            <a className="px-2 py-2 bg-[#3b5998] text-xl rounded-lg hover:text-[#3b5998] hover:bg-gray-300 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 duration-200">
+            <Link to="https://www.facebook.com/profile.php?id=100094647446276" className="px-2 py-2 bg-[#3b5998] text-xl rounded-lg hover:text-[#3b5998] hover:bg-gray-300 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 duration-200">
               <p><FaFacebookF></FaFacebookF></p>
-            </a>
-            <a className="px-2 py-2 bg-[#007bb5] text-xl rounded-lg hover:text-[#007bb5] hover:bg-gray-300 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 duration-200">
+            </Link>
+            <Link to="https://www.linkedin.com/company/96591798" className="px-2 py-2 bg-[#007bb5] text-xl rounded-lg hover:text-[#007bb5] hover:bg-gray-300 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 duration-200">
               <p><FaLinkedinIn></FaLinkedinIn></p>
-            </a>
+            </Link>
             <a className="px-2 py-2 bg-[#55acee] text-xl rounded-lg hover:text-[#55acee] hover:bg-gray-300 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 duration-200">
               <p><FaTwitter></FaTwitter></p>
             </a>

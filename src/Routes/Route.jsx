@@ -7,6 +7,8 @@ import AboutSection from "../pages/AboutSection/AboutSection";
 import ContactUs from "../pages/ContactUs/ContactUs";
 import ComingSoon from "../shared/ComingSoon/ComingSoon";
 import Blogs from "../pages/BlogSection/Blogs";
+import Career from "../pages/Career/Career";
+import JobPost from "../pages/JobPost/JobPost";
 
 export const router = createBrowserRouter([
   {
@@ -36,6 +38,14 @@ export const router = createBrowserRouter([
         path: "blog",
         element: <Blogs></Blogs>,
       },
+      {
+        path:'career',
+        element:<Career></Career>
+      },
+      {
+        path:'jobPost',
+        element:<JobPost></JobPost>
+      }
     ],
   },
 ]);

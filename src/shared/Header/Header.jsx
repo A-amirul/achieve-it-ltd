@@ -83,7 +83,7 @@ const Header = () => {
             </NavLink>
           </li>
           <li>
-            <NavLink to={`/ComingSoon`}>
+            <NavLink to={`/career`}>
               {({ isActive }) => (
                 <span className={isActive ? "active" : ""}>Career</span>
               )}
