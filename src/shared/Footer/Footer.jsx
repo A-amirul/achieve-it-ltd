@@ -2,7 +2,7 @@ import logo from "../../assets/logo/logo.png";
 import { FaFacebookF, FaLinkedinIn, FaTwitter, FaYoutube } from "react-icons/fa";
 const Footer = () => {
   return (
-    <div className="bg-[#297583] text-base-100 mx-auto px-5 ">
+    <div className="bg-[#343946] text-base-100 mx-auto px-5 ">
       <footer className="footer pt-8 max-w-screen-xl mx-auto">
       <div>
           <div className=" Grid justify-center items-center">

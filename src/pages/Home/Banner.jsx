@@ -34,7 +34,7 @@ const Banner = () => {
                 </p>
                 <div className="pt-4 space-x-4">
                   <Link
-                    to="/comingSoon"
+                    to="/"
                     className="btn bg-gradient-to-r  text-lg rounded-3xl  text-green-600 px-8 font-semibold "
                   >
                   <PiNotePencilDuotone></PiNotePencilDuotone>
@@ -43,7 +43,7 @@ const Banner = () => {
                   </Link>
 
                   <Link
-                    to="/comingSoon"
+                    to="/focusarea"
                     className="btn  text-lg px-10 rounded-3xl text-white bg-gradient-to-t from-blue-700 to-teal-500  font-semibold"
                   >
                   <MdMiscellaneousServices></MdMiscellaneousServices>
