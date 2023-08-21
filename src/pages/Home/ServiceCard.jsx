@@ -8,7 +8,7 @@ const ServiceCard = ({ service, setModalInfo }) => {
 
   return (
     <>
-      <div className="hover:text-white ">
+      <div className="hover:text-white bg-white">
         <div className="border-2  mx-5  md:mx-0  bg- pt-14 pb-20 shadow-xl  hover:shadow-2xl hover:bg-blue-700  rounded-2xl transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-20 duration-500">
           <div className="w-48 h-48 mx-auto p-1 object-center border-2 rounded-full bg-gray-200  ">
             <img className="w-36 h-32 mx-auto mt-7 " src={image}></img>

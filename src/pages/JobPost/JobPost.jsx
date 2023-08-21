@@ -1,4 +1,3 @@
-import { FaLaptopCode } from "react-icons/fa";
 
 const JobPost = () => {
   return (

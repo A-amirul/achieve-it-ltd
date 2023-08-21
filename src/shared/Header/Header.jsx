@@ -1,5 +1,6 @@
 import {NavLink } from "react-router-dom";
 import logo from "../../assets/logo/logo.png";
+import './Header.css'
 const Header = () => {
   const navOptions = (
     <>
@@ -95,8 +96,8 @@ const Header = () => {
   );
 
   return (
-    <div className="navbar bg-gradient-to-t from-blue-700 to-teal-500 font-semibold text-lg py-0">
-      <div className="navbar-start">
+    <div className="sticky z-10 navbar bg-gradient-to-t from-blue-700 to-teal-500 font-semibold text-lg py-0">
+      <div className=" navbar-start">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden w-[300px] ">
             <svg

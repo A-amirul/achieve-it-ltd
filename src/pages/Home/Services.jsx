@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import ServiceCard from "./serviceCard";
+import './Home.css'
 
 const Services = () => {
   const [services, setServices] = useState([]);
@@ -12,7 +13,7 @@ const Services = () => {
   }, []);
 
   return (
-    <div className=" py-10 md:py-24 bg-white">
+    <div className=" py-10 md:py-24 serviceImage ">
       <div className="max-w-screen-xl mx-auto ">
         <h3 className="md:text-4xl font-semibold text-center w-60 mx-auto border-y-2 pb-1 border-blue-400 ">Our Services</h3>
       </div>
