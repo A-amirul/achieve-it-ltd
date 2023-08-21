@@ -18,7 +18,7 @@ const LeadershipTeam = () => {
             src={image1}
             alt=""
           />
-          <h2 className="text-xl font-bold text-center mt-5">
+          <h2 className="text-xl font-bold text-center mt-5 ">
             Mrs. Sultana Jerin Anjum
           </h2>
           <h3 className="mt-2 text-center">Chairman of Achieve It Ltd</h3>

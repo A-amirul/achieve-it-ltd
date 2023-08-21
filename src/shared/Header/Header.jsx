@@ -1,21 +1,25 @@
-import {NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import logo from "../../assets/logo/logo.png";
-import './Header.css'
+
+//import './Header.css'
+
+import { MdKeyboardArrowDown } from "react-icons/md";
+
 const Header = () => {
   const navOptions = (
     <>
       <div className="md:flex items-center">
         <div className="md:mr-[10px]">
           <li>
-            <a>
+            <Link to="/">
               <img className="w-24 h-20" src={logo} alt="" />
-            </a>
+            </Link>
           </li>
         </div>
 
         <div className="md:flex md:mx-[300px]">
           <li>
-            <NavLink to={`/`} >
+            <NavLink to={`/`}>
               {({ isActive }) => (
                 <span className={isActive ? "active" : ""}>Home</span>
               )}
@@ -29,46 +33,20 @@ const Header = () => {
               )}
             </NavLink>
           </li>
-          <li>
-            <details className="dropdown dropdown-hover">
-              <summary tabIndex={0}>Company</summary>
-              <ul
-                tabIndex={0}
-                className="dropdown-content z-[1] menu shadow bg-blue-600 text-white rounded-box w-52"
-              >
-                <li>
-                  <NavLink to={`/gallery`}>
-                    {({ isActive }) => (
-                      <span className={isActive ? "active" : ""}>Gallery</span>
-                    )}
-                  </NavLink>
-                </li>
-                <li>
-                  <NavLink to={`/teams`}>
-                    {({ isActive }) => (
-                      <span className={isActive ? "active" : ""}>Teams</span>
-                    )}
-                  </NavLink>
-                </li>
-                <li>
-                  <NavLink to={`/testimonials`}>
-                    {({ isActive }) => (
-                      <span className={isActive ? "active" : ""}>
-                        Testimonials
-                      </span>
-                    )}
-                  </NavLink>
-                </li>
-                <li>
-                  <NavLink to={`/pricing`}>
-                    {({ isActive }) => (
-                      <span className={isActive ? "active" : ""}>Pricing</span>
-                    )}
-                  </NavLink>
-                </li>
-              </ul>
-            </details>
-          </li>
+
+        <li>
+        <div className="dropdown">
+  <label tabIndex={0} className=" flex">Company <MdKeyboardArrowDown className=" mt-0.5 text-xl"></MdKeyboardArrowDown> </label>
+
+  <ul tabIndex={0} className="p-2 shadow menu dropdown-content z-[1] bg-blue-700 w-48 text-white rounded-box top-10 ">
+    <li><a>Gallary</a></li>
+    <li><a>Case Studies</a></li>
+    <li><a>Pricing</a></li>
+    <li><a>Products</a></li>
+  </ul>
+</div>
+        </li>
+
           <li>
             <NavLink to={`/blog`}>
               {({ isActive }) => (
@@ -102,7 +80,6 @@ const Header = () => {
           <label tabIndex={0} className="btn btn-ghost lg:hidden w-[300px] ">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              
               className="h-5 w-5 text-white "
               fill="none"
               viewBox="0 0 24 24"

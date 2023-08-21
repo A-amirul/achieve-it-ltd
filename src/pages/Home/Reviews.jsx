@@ -8,7 +8,7 @@ import { FaQuoteLeft } from "react-icons/fa";
 const Reviews = () => {
   return (
     <div className="font-serif">
-      <h1 className="text-4xl mt-16 mb-8 font-semibold text-center w-96 mx-auto border-y-2 pb-1 border-blue-400">
+      <h1 className="text-4xl mt-16 mb-8 font-semibold text-center w-96 mx-auto border-y-4 border-indigo-500">
         Our Clients Reviews
       </h1>
       <p className="text-slate-500 text-center my-2 font-medium">
