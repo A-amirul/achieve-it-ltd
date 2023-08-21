@@ -11,6 +11,8 @@
   },
   "dependencies": {
     "embla-carousel-autoplay": "^8.0.0-rc11",
+    "flowbite": "^1.8.1",
+    "flowbite-react": "^0.5.0",
     "localforage": "^1.10.0",
     "lottie-react": "^2.4.0",
     "match-sorter": "^6.3.1",
