@@ -7,6 +7,7 @@ import AboutSection from "../pages/AboutSection/AboutSection";
 import ContactUs from "../pages/ContactUs/ContactUs";
 import ComingSoon from "../shared/ComingSoon/ComingSoon";
 import Blogs from "../pages/BlogSection/Blogs";
+import FocusAreas from "../pages/FocusAreas/FocusAreas";
 
 export const router = createBrowserRouter([
   {
@@ -35,6 +36,10 @@ export const router = createBrowserRouter([
       {
         path: "blog",
         element: <Blogs></Blogs>,
+      },
+      {
+        path: "focusarea",
+        element: <FocusAreas></FocusAreas>,
       },
     ],
   },

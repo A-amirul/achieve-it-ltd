@@ -1,7 +1,6 @@
 import OurStory from "../AboutSection/OurStory";
 import Counter from "../Counter/Counter";
 import Banner from "./Banner";
-
 import Clients from "./Clients";
 import Reviews from "./Reviews";
 import Services from "./Services";
@@ -11,7 +10,7 @@ const Home = () => {
   return (
     <>
       <Banner></Banner>
-      {/* <BannerSlider></BannerSlider> */}
+      {/* <BannerSlider></BannerSlider>*/}
       <Welcome></Welcome>
       <Counter></Counter>
       <Services></Services>
