@@ -50,7 +50,7 @@ export const router = createBrowserRouter([
       {
         path:'jobPost',
         element:<JobPost></JobPost>
-      }
+      },{
 
         path: "focusarea",
         element: <FocusAreas></FocusAreas>,
