@@ -1,7 +1,7 @@
 import { Link, NavLink } from "react-router-dom";
 import logo from "../../assets/logo/logo.png";
 
-//import './Header.css'
+import './Header.css'
 
 import { MdKeyboardArrowDown } from "react-icons/md";
 

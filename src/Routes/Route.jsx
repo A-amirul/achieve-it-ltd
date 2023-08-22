@@ -13,7 +13,6 @@ import JobPost from "../pages/JobPost/JobPost";
 
 import FocusAreas from "../pages/FocusAreas/FocusAreas";
 
-
 export const router = createBrowserRouter([
   {
     path: "/",
@@ -30,8 +29,8 @@ export const router = createBrowserRouter([
         element: <AboutSection></AboutSection>,
       },
       {
-        path:'ComingSoon',
-        element:<ComingSoon></ComingSoon>
+        path: "ComingSoon",
+        element: <ComingSoon></ComingSoon>,
       },
 
       {
@@ -43,19 +42,17 @@ export const router = createBrowserRouter([
         element: <Blogs></Blogs>,
       },
       {
-
-        path:'career',
-        element:<Career></Career>
+        path: "career",
+        element: <Career></Career>,
       },
       {
-        path:'jobPost',
-        element:<JobPost></JobPost>
-      }
-
+        path: "jobPost",
+        element: <JobPost></JobPost>,
+      },
+      {
         path: "focusarea",
         element: <FocusAreas></FocusAreas>,
       },
-
     ],
   },
 ]);

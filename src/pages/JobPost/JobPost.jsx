@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 const JobPost = () => {
   return (
@@ -133,7 +134,10 @@ const JobPost = () => {
         </ul>
       </div>
       <div className="text-center">
+        <Link to={'https://docs.google.com/forms/d/e/1FAIpQLScjDaTeZmDh9SiaUhh_en6knJTVvH5yVRjsS7U-hnAq9oe32w/viewform?usp=sf_link'}>
+        
         <button className="bg-sky-600 hover:bg-sky-800 text-white py-3 px-5 rounded-lg shadow-2xl mt-16 font-bold">Apply Now</button>
+        </Link>
       </div>
     </div>
   );

@@ -7,7 +7,7 @@ import img15 from "../../assets/clients/15.jpg";
 import { FaQuoteLeft } from "react-icons/fa";
 const Reviews = () => {
   return (
-    <div className="font-serif">
+    <div className="font-serif ">
       <h1 className="text-4xl mt-16 mb-8 font-semibold text-center w-96 mx-auto border-y-4 border-indigo-500">
         Our Clients Reviews
       </h1>
