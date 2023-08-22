@@ -10,7 +10,7 @@ import slide2 from "../../assets/istockphoto-1411782642-612x612.jpg"
 import slide3 from "../../assets/istockphoto-486655342-612x612.jpg"
 
 // import required modules
-import { Autoplay, Pagination, Navigation } from "swiper/modules";
+import { Autoplay,  Navigation } from "swiper/modules";
 
 const BannerSlider = () => {
   return (

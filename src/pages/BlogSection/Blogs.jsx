@@ -1,14 +1,12 @@
+import image2 from "../../assets/Blog/image2.jpg";
 import image4 from "../../assets/Blog/image4.png";
 import image5 from "../../assets/Blog/image5.png";
 import image6 from "../../assets/Blog/image6.png";
-import image2 from "../../assets/Blog/image2.jpg";
-import image3 from "../../assets/Blog/image3.jpg";
-import { FaArrowRight } from "react-icons/fa";
 const Blogs = () => {
   return (
     <div className="max-w-screen-xl mx-auto mt-10">
-      <h1 className="text-blue-700 text-2xl md:text-4xl text-center my-24 font-bold ">Welcome To Our Blogs</h1>
-      <div className=" grid md:grid-cols-2 gap-20 px-5">
+      <h1 className="text-blue-700 text-2xl font-bold">Welcome To Our Blogs</h1>
+      <div className=" grid grid-cols-2 gap-20">
       <div className="">
         <h1 className="text-xl font-bold mb-2">ChatGPT </h1>
         <img className="w-full" src={image2} alt="" />
@@ -81,7 +79,7 @@ const Blogs = () => {
           development offers platform-specific excellence, while cross-platform
           development emphasizes efficiency and broader reach. Weigh the pros
           and cons carefully to make the right choice for your app, always
-          prioritizing your users' needs.
+          prioritizing your users&apos; needs.
         </p>
       </div>
       <div className="">
@@ -90,7 +88,7 @@ const Blogs = () => {
         </h1>
         <img className="w-full" src={image6} alt="" />
         <p className="text-justify mt-10">
-          In today's interconnected digital landscape, the significance of data
+          In today&apos;s interconnected digital landscape, the significance of data
           security extends beyond the realm of protection alone. While
           safeguarding sensitive information remains a core priority, it also
           brings forth a multitude of invaluable business advantages. Upholding
@@ -100,7 +98,7 @@ const Blogs = () => {
           loyalty. Moreover, adhering to data security protocols ensures
           alignment with industry regulations, mitigating the potential for
           regulatory fines and legal entanglements. <br />
-          Yet, the benefits of data security don't end there. By fortifying data
+          Yet, the benefits of data security don&apos;t end there. By fortifying data
           against breaches, businesses empower themselves to explore innovative
           data-driven strategies with confidence. This could encompass
           leveraging cutting-edge technologies like artificial intelligence and
@@ -110,7 +108,7 @@ const Blogs = () => {
           sustainable growth.
           <br />
           In essence, data security serves as more than just a protective
-          shield; it's a catalyst for cultivating a resilient brand image,
+          shield; it&apos;s a catalyst for cultivating a resilient brand image,
           harnessing the potential of transformative technologies, and driving
           multifaceted business values that contribute to long-term success.
         </p>

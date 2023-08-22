@@ -6,9 +6,9 @@ import image9 from "../../assets/AboutSection/image9.jpg";
 
 const OurStory = () => {
   return (
-    <div className="bg-[#fafafa]">
-      <div className="mx-auto max-w-screen-xl pt-16">
-        <h1 className="text-4xl mt-16 mb-8 font-semibold text-center w-60 mx-auto border-y-4 border-indigo-500">
+    <div  className="bg-[#fafafa]">
+      <div   className="mx-auto max-w-screen-xl pt-16">
+        <h1 id="ourstory" className="text-4xl mt-16 mb-8 font-semibold text-center w-60 mx-auto border-y-4 border-indigo-500">
           Our Story
         </h1>
         <p className="text-slate-500 text-center my-2 font-medium">
