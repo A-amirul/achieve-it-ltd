@@ -16,8 +16,8 @@ const CurrentJobOpenings = () => {
                         <p className="flex items-center gap-2"><span><FaMapMarkerAlt></FaMapMarkerAlt></span> <span>Natural Madina Tower</span></p>
                     </div>
                 </div>
-                <div>
-                    <Link to={'/jobPost'} className="mt-5 md:mt-0 text-lg font-bold text-white px-4 py-3 bg-sky-500 rounded-xl shadow-2xl hover:bg-sky-800 ">Job Details</Link>
+                <div className="mt-10 md:mt-0">
+                    <Link to={'/jobPost'} className="text-lg font-bold text-white px-4 py-3 bg-sky-500 rounded-xl shadow-2xl hover:bg-sky-800 ">Job Details</Link>
                 </div>
             </div>
             <p className="text-center text-lg mt-20">Don’t see an opportunity that fits? Don’t worry.. We are rapidly expanding. Stalk us on <Link to={'https://www.facebook.com/profile.php?id=100094647446276'} className="text-blue-800 font-bold">Facebook</Link> or <Link to={'https://www.linkedin.com/company/96591798/admin/feed/posts/'} className="text-blue-800 font-bold">LinkedIn</Link> for new opportunities.</p>
