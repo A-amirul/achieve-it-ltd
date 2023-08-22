@@ -1,7 +1,8 @@
-import { Link } from "react-router-dom";
 import { useTypewriter } from "react-simple-typewriter";
 import { PiNotePencilDuotone } from "react-icons/pi";
 import { MdMiscellaneousServices } from "react-icons/md";
+import { Link} from 'react-scroll';
+
 
 const Banner = () => {
   const [text] = useTypewriter({
@@ -33,8 +34,8 @@ const Banner = () => {
                   digital transformation.
                 </p>
                 <div className="pt-4 space-x-4">
-                  <Link
-                    to="/"
+                  <Link to="ourstory" spy={true} smooth={true} offset={-100} duration={300} 
+                 
                     className="btn bg-gradient-to-r  text-lg rounded-3xl  text-green-600 px-8 font-semibold "
                   >
                   <PiNotePencilDuotone></PiNotePencilDuotone>
@@ -42,8 +43,8 @@ const Banner = () => {
                     Visit Here
                   </Link>
 
-                  <Link
-                    to="/focusarea"
+                  
+                  <Link to="service" spy={true} smooth={true} offset={50} duration={500} 
                     className="btn  text-lg px-10 rounded-3xl text-white bg-gradient-to-t from-blue-700 to-teal-500  font-semibold"
                   >
                   <MdMiscellaneousServices></MdMiscellaneousServices>
