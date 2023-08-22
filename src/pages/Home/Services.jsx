@@ -13,12 +13,14 @@ const Services = () => {
   }, []);
 
   return (
+
     <div  className=" py-10 md:py-24 serviceImage  ">
       <div id="service"  className="max-w-screen-xl mx-auto ">
-        <h3 className="md:text-4xl font-semibold text-center w-60 mx-auto border-y-4 border-indigo-500 ">Our Services</h3>
+        <h3 className="md:text-4xl font-semibold text-center w-60 mx-auto border-y-4 border-indigo-500 text-white">Our Services</h3>
       </div>
       <div  className="max-w-screen-xl mx-auto mt-10">
-        <p className="text-slate-500 text-center my-2 font-medium">
+        <p className="text-center my-2 font-medium text-white">
+
           Know what kind of services we are offering
         </p>
 
