@@ -6,7 +6,9 @@ import image3 from "../../assets/Blog/image3.jpg";
 import { FaArrowRight } from "react-icons/fa";
 const Blogs = () => {
   return (
-    <div className="max-w-screen-xl mx-auto mt-10 grid grid-cols-2 gap-20">
+    <div className="max-w-screen-xl mx-auto mt-10">
+      <h1 className="text-blue-700 text-2xl md:text-4xl text-center my-24 font-bold ">Welcome To Our Blogs</h1>
+      <div className=" grid md:grid-cols-2 gap-20 px-5">
       <div className="">
         <h1 className="text-xl font-bold mb-2">ChatGPT </h1>
         <img className="w-full" src={image2} alt="" />
@@ -113,6 +115,7 @@ const Blogs = () => {
           multifaceted business values that contribute to long-term success.
         </p>
       </div>
+    </div>
     </div>
   );
 };
