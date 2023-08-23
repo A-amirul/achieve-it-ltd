@@ -2,27 +2,38 @@ import image4 from "../../assets/Blog/image4.png";
 import image5 from "../../assets/Blog/image5.png";
 import image6 from "../../assets/Blog/image6.png";
 import image2 from "../../assets/Blog/image2.jpg";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from "react";
 const Blogs = () => {
+    useEffect(()=>{
+    AOS.init({duration: 1500})
+  }, [])
   return (
-    <div>
-    <div className=" md:visible invisible	">
-      <div className="flex justify-center items-center md:my-20 ">
-        <p className="text-6xl font-bold text-cyan-700">Wellc</p>
-        <div className="w-9 h-9 border-8 border-dashed  rounded-full animate-spin mt-5  border-orange-500"></div>
-        <p className="text-6xl font-bold pr-4 text-cyan-700">me</p> 
-        <p className="text-6xl font-bold pr-4 text-cyan-700">To</p>
-        <div className="w-9 h-9 border-8 border-dashed rounded-full animate-spin mt-5 border-orange-500"></div>
-        {/* <div className="w-9 h-9 border-8 border-dashed  rounded-full animate-spin mt-3 border-green-400"></div> */}
-        <p className="text-6xl font-bold text-cyan-700">ur Bl</p>
-                <div className="w-9 h-9 border-8 border-dashed  rounded-full animate-spin mt-5  border-orange-500"></div>
-                <p className="text-6xl font-bold text-cyan-700">gs</p>
-
+    <div className="overflow-hidden">
+      <div className=" md:visible invisible	">
+        <div className="flex justify-center items-center md:my-20 ">
+          <p className="text-5xl font-bold text-cyan-700">Wellc</p>
+          <div className="w-7 h-7 border-8 border-dashed  rounded-full animate-spin mt-4  border-orange-500"></div>
+          <p className="text-5xl font-bold pr-4 text-cyan-700">me</p>
+          <p className="text-5xl font-bold pr-4 text-cyan-700">To</p>
+          <div className="w-7 h-7 border-8 border-dashed rounded-full animate-spin mt-4 border-orange-500"></div>
+          {/* <div className="w-7 h-7 border-8 border-dashed  rounded-full animate-spin mt-3 border-green-400"></div> */}
+          <p className="text-5xl font-bold text-cyan-700">ur Bl</p>
+          <div className="w-7 h-7 border-8 border-dashed  rounded-full animate-spin mt-4  border-orange-500"></div>
+          <p className="text-5xl font-bold text-cyan-700">gs</p>
+        </div>
       </div>
-    </div>
       <div className="max-w-screen-xl mx-auto md:mt-10 grid md:grid-cols-2 gap-20 px-5 md:px-0">
-        <div className="">
+        <div data-aos="fade-right" className="">
           <h1 className="text-xl font-bold mb-2">ChatGPT </h1>
-          <img className="w-full" src={image2} alt="" />
+          <div className="w-full overflow-hidden">
+            <img
+              className="w-full hover:scale-125 transition  duration-1000"
+              src={image2}
+              alt=""
+            />
+          </div>
           <p className="text-justify mt-10">
             As the Assistant explained, ChatGPT is a large language model
             trained by the San Francisco company OpenAI. It has been trained on
@@ -38,11 +49,17 @@ const Blogs = () => {
             human speaker.
           </p>
         </div>
-        <div className="">
+        <div data-aos="fade-left" className="">
           <h1 className="text-xl font-bold mb-2">
             The Impact Of ChatGPT On Blockchain And Web3 Space
           </h1>
-          <img className="w-full" src={image4} alt="" />
+          <div className="w-full overflow-hidden">
+            <img
+              className="w-full hover:scale-125 transition duration-1000 "
+              src={image4}
+              alt=""
+            />
+          </div>
           <p className="text-justify mt-10">
             ChatGPT was the biggest technology release in 2022, tailored to
             highlight the features of the emerging GPT-4. It has crossed the
@@ -66,11 +83,17 @@ const Blogs = () => {
             influence the blockchain and web3 industry.
           </p>
         </div>
-        <div className="">
+        <div data-aos="fade-right" className="">
           <h1 className="text-xl font-bold mb-2">
             Native or Cross-Platform: Mobile Development
           </h1>
-          <img className="w-full" src={image5} alt="" />
+          <div className="w-full overflow-hidden">
+            <img
+              className="w-full hover:scale-125 transition duration-1000 "
+              src={image5}
+              alt=""
+            />
+          </div>
           <p className="text-justify mt-10">
             Native app development involves creating separate versions of an app
             for each platform (iOS and Android) using platform-specific tools
@@ -93,17 +116,23 @@ const Blogs = () => {
             development offers platform-specific excellence, while
             cross-platform development emphasizes efficiency and broader reach.
             Weigh the pros and cons carefully to make the right choice for your
-            app, always prioritizing your users' needs.
+            app, always prioritizing your users&apos; needs.
           </p>
         </div>
-        <div className="">
+        <div data-aos="fade-left" className="">
           <h1 className="text-xl font-bold mb-2">
             Data Security with multiple business values
           </h1>
-          <img className="w-full" src={image6} alt="" />
+          <div className="w-full overflow-hidden">
+            <img
+              className="w-full hover:scale-125 transition duration-1000 "
+              src={image6}
+              alt=""
+            />
+          </div>
           <p className="text-justify mt-10">
-            In today's interconnected digital landscape, the significance of
-            data security extends beyond the realm of protection alone. While
+            In today&apos;s interconnected digital landscape, the significance
+            of data security extends beyond the realm of protection alone. While
             safeguarding sensitive information remains a core priority, it also
             brings forth a multitude of invaluable business advantages.
             Upholding stringent data security measures fosters a foundation of
@@ -112,19 +141,20 @@ const Blogs = () => {
             customer loyalty. Moreover, adhering to data security protocols
             ensures alignment with industry regulations, mitigating the
             potential for regulatory fines and legal entanglements. <br />
-            Yet, the benefits of data security don't end there. By fortifying
-            data against breaches, businesses empower themselves to explore
-            innovative data-driven strategies with confidence. This could
-            encompass leveraging cutting-edge technologies like artificial
+            Yet, the benefits of data security don&apos;t end there. By
+            fortifying data against breaches, businesses empower themselves to
+            explore innovative data-driven strategies with confidence. This
+            could encompass leveraging cutting-edge technologies like artificial
             intelligence and analytics, which thrive on the availability of
             reliable and secure data. The outcome is not merely risk mitigation,
             but a strategic vantage point that propels competitiveness,
             innovation, and sustainable growth.
             <br />
             In essence, data security serves as more than just a protective
-            shield; it's a catalyst for cultivating a resilient brand image,
-            harnessing the potential of transformative technologies, and driving
-            multifaceted business values that contribute to long-term success.
+            shield; it&apos;s a catalyst for cultivating a resilient brand
+            image, harnessing the potential of transformative technologies, and
+            driving multifaceted business values that contribute to long-term
+            success.
           </p>
         </div>
       </div>

@@ -33,10 +33,10 @@ const Banner = () => {
                   enterprises re-imagine their business and navigate their
                   digital transformation.
                 </p>
-                <div className="pt-4 space-x-4">
+                <div className="pt-4 space-x-4 ">
                   <Link to="ourstory" spy={true} smooth={true} offset={-100} duration={300} 
                  
-                    className="btn bg-gradient-to-r  text-lg rounded-3xl  text-green-600 px-8 font-semibold "
+                    className="btn bg-gradient-to-r  md:text-lg rounded-3xl  text-green-600 px-2 md:px-8 font-semibold "
                   >
                   <PiNotePencilDuotone></PiNotePencilDuotone>
 
@@ -45,7 +45,7 @@ const Banner = () => {
 
                   
                   <Link to="service" spy={true} smooth={true} offset={50} duration={500} 
-                    className="btn  text-lg px-10 rounded-3xl text-white bg-gradient-to-t from-blue-700 to-teal-500  font-semibold"
+                    className="btn  md:text-lg  rounded-3xl text-white bg-gradient-to-t from-blue-700 to-teal-500  font-semibold px-4 md:px-8"
                   >
                   <MdMiscellaneousServices></MdMiscellaneousServices>
                     Services

@@ -1,3 +1,6 @@
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from "react";
 import img1 from "../../assets/about-image-1.jpg";
 import img2 from "../../assets/about-image-2.jpg";
 import img3 from "../../assets/about-image-3.jpg";
@@ -5,10 +8,13 @@ import img4 from "../../assets/about-image-4.jpg";
 import right from "../../assets/right.png";
 
 const Welcome = () => {
+  useEffect(()=>{
+    AOS.init({duration: 1500})
+  }, [])
   return (
-    <div className="pt-32">
-      <div className="md:flex justify-center bg-white gap-12 md:py-12 font-serif p-8 ">
-        <div>
+    <div className="pt-32 overflow-hidden">
+      <div  className="md:flex justify-center bg-white gap-12 md:py-12 font-serif p-8 ">
+        <div data-aos="fade-right">
           <div className="font-sans hover:font-serif">
             <p className="text-[#4A3D8F] font-bold underline decoration-red-600 underline-offset-2 font-serif	">
               Achieve It Ltd - Welcome To IT Solutions
@@ -61,7 +67,7 @@ const Welcome = () => {
           </ul>
         </div>
 
-        <div className="grid grid-cols-2 gap-4">
+        <div data-aos="fade-left" className="grid grid-cols-2 gap-4 mt-5 md:mt-0">
           <img className="rounded-lg" src={img1} alt="img" />
           <img className="rounded-lg" src={img2} alt="img" />
           <img className="rounded-lg" src={img3} alt="img" />
