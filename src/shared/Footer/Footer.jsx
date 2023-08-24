@@ -24,10 +24,9 @@ const Footer = () => {
         </div>
         <div className="text-xl ">
           <span className="font-bold text-2xl tracking-wide text-[#82d0f6]">Company</span>
-          <a className="link link-hover">About us</a>
-          <a className="link link-hover">Contact</a>
-          <a className="link link-hover">Jobs</a>
-          <a className="link link-hover">Press kit</a>
+          <Link to='/about' className="link link-hover">About us</Link>
+          <Link to='/contact' className="link link-hover">Contact</Link>
+          <Link to='/career' className="link link-hover">Jobs</Link>
         </div>
         <div className="text-xl ">
         <span className="font-bold text-2xl tracking-wide text-[#82d0f6]">Legal</span>
