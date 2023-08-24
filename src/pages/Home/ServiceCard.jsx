@@ -1,14 +1,20 @@
 /* eslint-disable react/prop-types */
 import { FaArrowAltCircleRight } from "react-icons/fa";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from "react";
 
 // eslint-disable-next-line react/prop-types
 const ServiceCard = ({ service, setModalInfo }) => {
   // eslint-disable-next-line react/prop-types
   const { name, image, description } = service;
+  useEffect(()=>{
+    AOS.init({duration: 2500})
+  }, [])
 
   return (
     <>
-      <div className="hover:text-white ">
+      <div data-aos="fade-down" className="hover:text-white ">
         <div className="border-2 bg-white  mx-5  md:mx-0  bg- pt-14 pb-20 shadow-xl  hover:shadow-2xl hover:bg-blue-700  rounded-2xl transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-20 duration-500">
           <div className="w-48 h-48 mx-auto p-1 object-center border-2 rounded-full bg-gray-200  ">
             <img className="w-36 h-32 mx-auto mt-7 " src={image}></img>

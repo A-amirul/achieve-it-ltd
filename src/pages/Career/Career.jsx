@@ -5,7 +5,7 @@ const Career = () => {
     return (
         <div>
             <div className='bg-black'>
-                <img className='opacity-60 w-full h-64 md:h-[650px] object-contain md:object-cover ' src={careerBanner} alt="" />
+                <img className='opacity-80 w-full h-64 md:h-[450px] ' src={careerBanner} alt="" />
             </div>
             <CareerSection></CareerSection>
             <CurrentJobOpenings></CurrentJobOpenings>

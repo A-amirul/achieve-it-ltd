@@ -7,12 +7,18 @@ import image6 from "../../assets/AboutSection/person5.png";
 import image7 from "../../assets/AboutSection/person7.png";
 import image8 from "../../assets/AboutSection/person8.png";
 import { FaFacebookF, FaLinkedinIn, FaTwitter } from "react-icons/fa";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from "react";
 
 const LeadershipTeam = () => {
+  useEffect(()=>{
+    AOS.init({duration: 2500})
+  }, [])
   return (
     <div className="">
       <div className="mt-16 grid md:grid-cols-4 gap-4 mx-auto max-w-screen-xl">
-        <div className="border-4 border-white mx-5 md:mx-0 pt-14 pb-20 shadow-xl hover:shadow-2xl hover:bg-white rounded-2xl transition ease-in-out delay-100  hover:-translate-y-1 hover:scale-20  duration-500">
+        <div data-aos="zoom-in-right" className="border-4 border-white mx-5 md:mx-0 pt-14 pb-20 shadow-xl hover:shadow-2xl hover:bg-white rounded-2xl transition ease-in-out delay-100  hover:-translate-y-1 hover:scale-20  duration-500">
           <img
             className="h-52 w-52 rounded-full mx-auto object-contain bg-white shadow-2xl"
             src={image1}
@@ -34,7 +40,7 @@ const LeadershipTeam = () => {
             </p>
           </div>
         </div>
-        <div className="border-4 border-white mx-5 md:mx-0 pt-14 pb-20 shadow-xl hover:shadow-2xl hover:bg-white rounded-2xl transition ease-in-out delay-100  hover:-translate-y-1 hover:scale-20  duration-500">
+        <div data-aos="zoom-in-left" className="border-4 border-white mx-5 md:mx-0 pt-14 pb-20 shadow-xl hover:shadow-2xl hover:bg-white rounded-2xl transition ease-in-out delay-100  hover:-translate-y-1 hover:scale-20  duration-500">
           <img
             className="h-52 w-52 rounded-full mx-auto object-contain bg-white shadow-2xl"
             src={image5}
@@ -56,7 +62,7 @@ const LeadershipTeam = () => {
             </p>
           </div>
         </div>
-        <div className="border-4 border-white mx-5 md:mx-0 pt-14 pb-20 shadow-xl hover:shadow-2xl hover:bg-white rounded-2xl transition ease-in-out delay-100  hover:-translate-y-1 hover:scale-20  duration-500 ">
+        <div data-aos="zoom-in-right" className="border-4 border-white mx-5 md:mx-0 pt-14 pb-20 shadow-xl hover:shadow-2xl hover:bg-white rounded-2xl transition ease-in-out delay-100  hover:-translate-y-1 hover:scale-20  duration-500 ">
           <img
             className="h-52 w-52 rounded-full mx-auto object-contain bg-white shadow-2xl"
             src={image3}
@@ -77,7 +83,7 @@ const LeadershipTeam = () => {
           </div>
         </div>
 
-        <div className="border-4 border-white mx-5 md:mx-0 pt-14 pb-20 shadow-xl hover:shadow-2xl hover:bg-white rounded-2xl transition ease-in-out delay-100  hover:-translate-y-1 hover:scale-20  duration-500 ">
+        <div data-aos="zoom-in-left" className="border-4 border-white mx-5 md:mx-0 pt-14 pb-20 shadow-xl hover:shadow-2xl hover:bg-white rounded-2xl transition ease-in-out delay-100  hover:-translate-y-1 hover:scale-20  duration-500 ">
           <img
             className="h-52 w-52 rounded-full mx-auto object-contain bg-white shadow-2xl"
             src={image2}
@@ -99,7 +105,7 @@ const LeadershipTeam = () => {
             </p>
           </div>
         </div>
-        <div className="border-4 border-white mx-5 md:mx-0 pt-14 pb-20 shadow-xl hover:shadow-2xl hover:bg-white rounded-2xl transition ease-in-out delay-100  hover:-translate-y-1 hover:scale-20  duration-500 ">
+        <div data-aos="zoom-in-right" className="border-4 border-white mx-5 md:mx-0 pt-14 pb-20 shadow-xl hover:shadow-2xl hover:bg-white rounded-2xl transition ease-in-out delay-100  hover:-translate-y-1 hover:scale-20  duration-500 ">
           <img
             className="h-52 w-52 rounded-full mx-auto object-contain bg-white shadow-2xl"
             src={image4}
@@ -119,7 +125,7 @@ const LeadershipTeam = () => {
             </p>
           </div>
         </div>
-        <div className="border-4 border-white mx-5 md:mx-0 pt-14 pb-20 shadow-xl hover:shadow-2xl hover:bg-white rounded-2xl transition ease-in-out delay-100  hover:-translate-y-1 hover:scale-20  duration-500 ">
+        <div data-aos="zoom-in-left" className="border-4 border-white mx-5 md:mx-0 pt-14 pb-20 shadow-xl hover:shadow-2xl hover:bg-white rounded-2xl transition ease-in-out delay-100  hover:-translate-y-1 hover:scale-20  duration-500 ">
           <img
             className="h-52 w-52 rounded-full mx-auto object-contain bg-white shadow-2xl"
             src={image6}
@@ -139,7 +145,7 @@ const LeadershipTeam = () => {
             </p>
           </div>
         </div>
-        <div className="border-4 border-white mx-5 md:mx-0 pt-14 pb-20 shadow-xl hover:shadow-2xl hover:bg-white rounded-2xl transition ease-in-out delay-100  hover:-translate-y-1 hover:scale-20  duration-500 ">
+        <div data-aos="zoom-in-right" className="border-4 border-white mx-5 md:mx-0 pt-14 pb-20 shadow-xl hover:shadow-2xl hover:bg-white rounded-2xl transition ease-in-out delay-100  hover:-translate-y-1 hover:scale-20  duration-500 ">
           <img
             className="h-52 w-52 rounded-full mx-auto object-contain bg-white shadow-2xl"
             src={image7}
@@ -159,7 +165,7 @@ const LeadershipTeam = () => {
             </p>
           </div>
         </div>
-        <div className="border-4 border-white mx-5 md:mx-0 pt-14 pb-20 shadow-xl hover:shadow-2xl hover:bg-white rounded-2xl transition ease-in-out delay-100  hover:-translate-y-1 hover:scale-20  duration-500 ">
+        <div data-aos="zoom-in-left" className="border-4 border-white mx-5 md:mx-0 pt-14 pb-20 shadow-xl hover:shadow-2xl hover:bg-white rounded-2xl transition ease-in-out delay-100  hover:-translate-y-1 hover:scale-20  duration-500 ">
           <img
             className="h-52 w-52 rounded-full mx-auto object-contain bg-white shadow-2xl"
             src={image8}

@@ -12,6 +12,8 @@ import Career from "../pages/Career/Career";
 import JobPost from "../pages/JobPost/JobPost";
 
 import FocusAreas from "../pages/FocusAreas/FocusAreas";
+import SeniorDeveloper from "../pages/JobPost/SeniorDeveloper";
+import UXDesigner from "../pages/JobPost/UXDesigner";
 
 export const router = createBrowserRouter([
   {
@@ -48,6 +50,14 @@ export const router = createBrowserRouter([
       {
         path: "jobPost",
         element: <JobPost></JobPost>,
+      },
+      {
+        path: "seniorDeveloper",
+        element: <SeniorDeveloper></SeniorDeveloper>,
+      },
+      {
+        path: "UXDesigner",
+        element: <UXDesigner></UXDesigner>,
       },
       {
         path: "focusarea",
